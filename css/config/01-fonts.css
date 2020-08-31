@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* ------------------------------------------------------------ */
+@font-face {
+  font-family: Lifehack;
+  /* Имя шрифта */
+  src: url(../fonts/Lifehack-Medium.otf);
+  /* Путь к файлу со шрифтом */ }
+
+@font-face {
+  font-family: Gagalin;
+  /* Имя шрифта */
+  src: url(../fonts/Gagalin-Regular.otf);
+  /* Путь к файлу со шрифтом */ }
+
+@font-face {
+  font-family: Ubuntu;
+  /* Имя шрифта */
+  src: url(../fonts/Ubuntu-Regular.ttf);
+  /* Путь к файлу со шрифтом */ }
+
+/* ------------------------------------------------------------ */
