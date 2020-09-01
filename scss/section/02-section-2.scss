@@ -4,23 +4,21 @@
 /* --------------------------------------------- */
 
 .section-2 {
-    width: 320px;
+    min-width: 320px;
+    max-width: 494px;
     min-height: 435px;
 
     margin: 0 auto;
 
     background-image: url("../img/mobile/bg-header-m.png");
     background-position-x: -884px;
-    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .section-2__flex {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    margin-left: 11px;
-    margin-right: 11px;
 }
 
 .section-2__header-1 {
@@ -41,8 +39,8 @@
 
 .section-2__header-2 {
     margin-top: 0;
-    margin-left: 67px;
-    margin-right: 66px;
+    margin-left: 78px;
+    margin-right: 77px;
     margin-bottom: 25px;
 
     padding-left: 2px;
@@ -67,7 +65,7 @@
 }
 
 .section-2__link {
-    width: 320px;
+    width: 100%;
     min-height: 60px;
 
     color: #ffffff;
@@ -85,6 +83,12 @@
     &:hover {
         transition: 0.5s;
         background-color: #529915;
+    }
+}
+
+@media (min-width: 443px) {
+    .section-2__img {
+        margin-bottom: 53px;
     }
 }
 
