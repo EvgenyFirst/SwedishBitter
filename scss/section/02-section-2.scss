@@ -1,7 +1,92 @@
 /* --------------------------------------------- */
 /* --------------------------------------------- */
-/* Section */
+/* Section-2 */
 /* --------------------------------------------- */
+
+.section-2 {
+    width: 320px;
+    min-height: 435px;
+
+    margin: 0 auto;
+
+    background-image: url("../img/mobile/bg-header-m.png");
+    background-position-x: -884px;
+    background-size: cover;
+}
+
+.section-2__flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-left: 11px;
+    margin-right: 11px;
+}
+
+.section-2__header-1 {
+    margin-top: 46px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+
+    padding: 0;
+
+    color: #ffffff;
+    font-size: 12px;
+    font-family: "Montserrat", Arial, sans-serif;
+    line-height: 2.3;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.section-2__header-2 {
+    margin-top: 0;
+    margin-left: 67px;
+    margin-right: 66px;
+    margin-bottom: 25px;
+
+    padding-left: 2px;
+    padding-right: 4px;
+
+    color: #ffffff;
+    font-size: 30px;
+    font-family: "Montserrat", Arial, sans-serif;
+    line-height: 1.2;
+    font-weight: 600;
+    text-align: center;
+}
+
+.section-2__img {
+    background-image: url("../img/mobile/SwedishBitter-m.png");
+    background-repeat: no-repeat;
+
+    width: 86px;
+    height: 188px;
+
+    margin-bottom: 17px;
+}
+
+.section-2__link {
+    width: 320px;
+    min-height: 60px;
+
+    color: #ffffff;
+    font-size: 12px;
+    font-family: "Montserrat", Arial, sans-serif;
+    line-height: 1.833;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+
+    padding-top: 20px;
+
+    background-color: #7eb252;
+
+    &:hover {
+        transition: 0.5s;
+        background-color: #529915;
+    }
+}
 
 /* --------------------------------------------- */
 /* --------------------------------------------- */

@@ -3,19 +3,238 @@
 @font-face {
   font-family: Lifehack;
   /* Имя шрифта */
-  src: url(../fonts/Lifehack-Medium.otf);
-  /* Путь к файлу со шрифтом */ }
-
+  src: url(../fonts/);
+  /* Путь к файлу со шрифтом */
+}
 @font-face {
   font-family: Gagalin;
   /* Имя шрифта */
-  src: url(../fonts/Gagalin-Regular.otf);
-  /* Путь к файлу со шрифтом */ }
-
+  src: url(../fonts/);
+  /* Путь к файлу со шрифтом */
+}
 @font-face {
   font-family: Ubuntu;
   /* Имя шрифта */
-  src: url(../fonts/Ubuntu-Regular.ttf);
-  /* Путь к файлу со шрифтом */ }
-
+  src: url(../fonts/);
+  /* Путь к файлу со шрифтом */
+}
 /* ------------------------------------------------------------ */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+  font-family: "Barlow Semi Condensed", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1;
+  background-color: #ffffff;
+  background-position: top center;
+  background-repeat: no-repeat;
+  /*
+      background-image: url("../img/bg-sites/index.jpg");
+
+      font-family: 'Barlow Semi Condensed', Arial, sans-serif;
+      font-family: 'Montserrat', Arial, sans-serif;
+  */
+}
+
+img {
+  max-width: 100%;
+}
+
+.visually-hidden {
+  text-align: center;
+}
+
+.container {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* Section-1 */
+/* --------------------------------------------- */
+.section-1 {
+  min-height: 64px;
+}
+
+.section-1__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 11px;
+  margin-right: 11px;
+  padding-top: 15px;
+  padding-left: 1px;
+}
+
+.section-1__logo {
+  background-image: url("../img/mobile/logo-m.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 110px;
+  height: 14px;
+}
+
+.section-1__tel {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: #282828;
+  line-height: 2.3;
+  text-decoration: none;
+}
+
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* Section-2 */
+/* --------------------------------------------- */
+.section-2 {
+  width: 320px;
+  min-height: 435px;
+  margin: 0 auto;
+  background-image: url("../img/mobile/bg-header-m.png");
+  background-position-x: -884px;
+  background-size: cover;
+}
+
+.section-2__flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 11px;
+  margin-right: 11px;
+}
+
+.section-2__header-1 {
+  margin-top: 46px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  padding: 0;
+  color: #ffffff;
+  font-size: 12px;
+  font-family: "Montserrat", Arial, sans-serif;
+  line-height: 2.3;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.section-2__header-2 {
+  margin-top: 0;
+  margin-left: 67px;
+  margin-right: 66px;
+  margin-bottom: 25px;
+  padding-left: 2px;
+  padding-right: 4px;
+  color: #ffffff;
+  font-size: 30px;
+  font-family: "Montserrat", Arial, sans-serif;
+  line-height: 1.2;
+  font-weight: 600;
+  text-align: center;
+}
+
+.section-2__img {
+  background-image: url("../img/mobile/SwedishBitter-m.png");
+  background-repeat: no-repeat;
+  width: 86px;
+  height: 188px;
+  margin-bottom: 17px;
+}
+
+.section-2__link {
+  width: 320px;
+  min-height: 60px;
+  color: #ffffff;
+  font-size: 12px;
+  font-family: "Montserrat", Arial, sans-serif;
+  line-height: 1.833;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 20px;
+  background-color: #7eb252;
+}
+.section-2__link:hover {
+  transition: 0.5s;
+  background-color: #529915;
+}
+
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* Section */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* Section */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* Section */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* Section */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* Section */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* Section */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* Section */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* Section */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* Section */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* Section */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
