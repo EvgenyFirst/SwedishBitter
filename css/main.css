@@ -21,6 +21,7 @@
 /* ------------------------------------------------------------ */
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -167,6 +168,7 @@ img {
   font-weight: 600;
   text-align: center;
   text-transform: uppercase;
+  text-decoration: none;
   padding-top: 20px;
   background-color: #7eb252;
 }
@@ -184,8 +186,52 @@ img {
 /* --------------------------------------------- */
 /* --------------------------------------------- */
 /* --------------------------------------------- */
-/* Section */
+/* Section-3 */
 /* --------------------------------------------- */
+.section-3 {
+  min-height: 751px;
+  margin-left: 11px;
+  margin-right: 11px;
+}
+
+.section-3__flex {
+  display: flex;
+  flex-direction: column;
+  margin-left: 44px;
+  margin-right: 48px;
+}
+
+.section-3__flex-block-1 {
+  padding-right: 4px;
+}
+
+.section-3__flex-block-2 {
+  padding-right: 14px;
+}
+
+.section-3__flex-block-3 {
+  padding-right: 18px;
+}
+
+.section-3__info-1 {
+  width: -webkit-max-content;
+  width: max-content;
+  border-bottom: 3px solid #a4c58c;
+  color: #a4c58c;
+  font-size: 24px;
+  font-family: "Montserrat", Arial, sans-serif;
+  line-height: 1.833;
+  font-weight: 600;
+}
+
+.section-3__info-2 {
+  color: #000000;
+  font-size: 16px;
+  font-family: "Montserrat", Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
 /* --------------------------------------------- */
 /* --------------------------------------------- */
 /* --------------------------------------------- */
