@@ -192,6 +192,8 @@ img {
   min-height: 751px;
   margin-left: 11px;
   margin-right: 11px;
+  display: flex;
+  justify-content: center;
 }
 
 .section-3__flex {
