@@ -4,10 +4,9 @@
 /* --------------------------------------------- */
 
 .section-3 {
-    min-height: 751px;
-
     margin-left: 11px;
     margin-right: 11px;
+    margin-bottom: 56px;
 
     display: flex;
     justify-content: center;
@@ -33,6 +32,7 @@
     padding-right: 18px;
 }
 
+
 .section-3__info-1 {
     width: max-content;
 
@@ -51,6 +51,10 @@
     font-family: "Montserrat", Arial, sans-serif;
     line-height: 1.5;
     font-weight: 500;
+}
+
+.section-3__info-2-add {
+    margin-bottom: 0;
 }
 
 /* --------------------------------------------- */
