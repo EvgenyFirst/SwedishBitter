@@ -396,8 +396,123 @@ img {
 /* --------------------------------------------- */
 /* --------------------------------------------- */
 /* --------------------------------------------- */
-/* Section */
+/* Section-5 */
 /* --------------------------------------------- */
+.section-5 {
+  margin-left: 11px;
+  margin-right: 11px;
+}
+
+.section-5__header {
+  margin-top: 59px;
+  padding-left: 2px;
+  color: #303030;
+  font-size: 24px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.section-5__variables {
+  margin: 0;
+  color: #303030;
+  font-size: 12px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.667;
+  text-align: center;
+}
+
+.section-5__items {
+  list-style: none;
+  padding-left: 0;
+}
+
+.section-5__item {
+  display: flex;
+  justify-content: left;
+  align-items: baseline;
+  margin-bottom: 23px;
+}
+
+.section-5__item-arrow {
+  background-image: url("../img/mobile/arrowRight-m.png");
+  background-repeat: no-repeat;
+  width: 19px;
+  min-height: 14px;
+  padding-left: 1px;
+  padding-right: 11px;
+}
+
+.section-5__item-info {
+  color: #303030;
+  font-size: 14px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.571;
+  margin: 0;
+  padding-right: 0;
+}
+
+.section-5__info-swedish-bitter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-5__girl-width-cup {
+  background-image: url("../img/mobile/girlWidthCup-m.png");
+  background-repeat: no-repeat;
+  min-width: 320px;
+  min-height: 244px;
+  position: relative;
+  left: -11px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.section-5__info-swedish-bitter-p {
+  color: #303030;
+  font-size: 14px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.714;
+  text-align: center;
+  margin-top: 0px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 34px;
+  padding-left: 30px;
+  padding-right: 24px;
+}
+
+.section-5__link {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 600;
+  line-height: 1.833;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  width: 100vw;
+  min-width: 320px;
+  min-height: 70px;
+  margin-left: -11px;
+  margin-right: -11px;
+  padding-top: 26px;
+  padding-bottom: 25px;
+  background-color: #7eb252;
+}
+.section-5__link:hover {
+  transition: 0.5s;
+  background-color: #529915;
+}
+
 /* --------------------------------------------- */
 /* --------------------------------------------- */
 /* --------------------------------------------- */
