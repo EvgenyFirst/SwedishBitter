@@ -432,7 +432,7 @@ img {
 
 .section-5__item {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: baseline;
   margin-bottom: 23px;
 }
@@ -483,8 +483,6 @@ img {
   line-height: 1.714;
   text-align: center;
   margin-top: 0px;
-  margin-left: 0;
-  margin-right: 0;
   margin-bottom: 34px;
   padding-left: 30px;
   padding-right: 24px;

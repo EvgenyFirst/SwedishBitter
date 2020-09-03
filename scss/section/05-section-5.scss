@@ -40,7 +40,7 @@
 
 .section-5__item {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: baseline;
 
     margin-bottom: 23px;
@@ -79,6 +79,7 @@
     background-image: url("../img/mobile/girlWidthCup-m.png");
     background-repeat: no-repeat;
 
+   
     min-width: 320px;
     min-height: 244px;
 
@@ -100,8 +101,6 @@
     text-align: center;
 
     margin-top: 0px;
-    margin-left: 0;
-    margin-right: 0;
     margin-bottom: 34px;
 
     padding-left: 30px;
