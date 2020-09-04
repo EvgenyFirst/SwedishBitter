@@ -804,8 +804,124 @@ img {
 /* --------------------------------------------- */
 /* --------------------------------------------- */
 /* --------------------------------------------- */
-/* Section */
+/* Section-8 */
 /* --------------------------------------------- */
+.section-8 {
+  width: 320px;
+  padding-top: 52px;
+}
+
+.section-8__header {
+  color: #303030;
+  font-size: 24px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.25;
+  margin-bottom: 0;
+  padding-left: 25px;
+  padding-right: 23px;
+}
+
+.section-8__items-1 {
+  padding-right: 33px;
+}
+.section-8__items-1 li {
+  color: #a4c58c;
+}
+.section-8__items-1 li:first-child {
+  margin-bottom: 26px;
+}
+.section-8__items-1 li:last-child {
+  margin-bottom: 24px;
+}
+
+.section-8__items-1-p {
+  color: #303030;
+  font-size: 14px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 600;
+  line-height: 1.571;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.section-8__items-2 {
+  list-style: none;
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 11px;
+  padding-right: 11px;
+}
+
+.section-8__items-2,
+.section-8__item-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-8__img-angelica-archangelica {
+  background-image: url("../img/mobile/AngelicaArchangelica-m.png");
+  background-repeat: no-repeat;
+  display: block;
+  min-width: 300px;
+  min-height: 298px;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+
+.section-8__img-carlina-acaulis {
+  background-image: url("../img/mobile/CarlinaAcaulis-m.png");
+  background-repeat: no-repeat;
+  display: block;
+  min-width: 300px;
+  min-height: 298px;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+
+.section-8__items-2-p-left {
+  color: #a4c58c;
+  font-size: 12.637px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.899;
+  margin-top: 0;
+  margin-bottom: 0;
+  transform: rotate(-90deg);
+  position: relative;
+  top: -273px;
+  left: 3px;
+}
+
+.section-8__items-2-p-right {
+  color: #a4c58c;
+  font-size: 12.637px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 600;
+  line-height: 1.899;
+  margin-top: 0;
+  margin-bottom: 0;
+  transform: rotate(-90deg);
+  position: relative;
+  top: -110px;
+  right: -44px;
+}
+
+.section-8__items-2-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 /* --------------------------------------------- */
 /* --------------------------------------------- */
 /* --------------------------------------------- */
