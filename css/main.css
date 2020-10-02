@@ -808,7 +808,14 @@ img {
 /* --------------------------------------------- */
 .section-8 {
   width: 320px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 52px;
+  padding-bottom: 55px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .section-8__header {
@@ -851,8 +858,19 @@ img {
   width: 320px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 0;
   padding-left: 11px;
   padding-right: 11px;
+}
+
+.section-8__item-2 {
+  background-color: #f6f9f3;
+  margin-bottom: 10px;
+}
+
+.section-8__item-2-11 {
+  min-width: 298px;
+  min-height: 298px;
 }
 
 .section-8__items-2,
@@ -864,9 +882,7 @@ img {
   margin-right: auto;
 }
 
-.section-8__img-angelica-archangelica {
-  background-image: url("../img/mobile/AngelicaArchangelica-m.png");
-  background-repeat: no-repeat;
+.section-8__img {
   display: block;
   min-width: 300px;
   min-height: 298px;
@@ -876,16 +892,54 @@ img {
   margin-bottom: 0;
 }
 
+.section-8__img-angelica-archangelica {
+  background-image: url("../img/mobile/AngelicaArchangelica-m.png");
+  background-repeat: no-repeat;
+}
+
 .section-8__img-carlina-acaulis {
   background-image: url("../img/mobile/CarlinaAcaulis-m.png");
   background-repeat: no-repeat;
-  display: block;
-  min-width: 300px;
-  min-height: 298px;
-  margin-top: 0;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 0;
+}
+
+.section-8__img-cunnamomum-camphora {
+  background-image: url("../img/mobile/CunnamomumCamphora-m.png");
+  background-repeat: no-repeat;
+}
+
+.section-8__img-fraxinus-ornus {
+  background-image: url("../img/mobile/FraxinusOrnus-m.png");
+  background-repeat: no-repeat;
+}
+
+.section-8__img-cammiphora-mol {
+  background-image: url("../img/mobile/CammiphoraMolmol-m.png");
+  background-repeat: no-repeat;
+}
+
+.section-8__img-pheum-palmatum {
+  background-image: url("../img/mobile/PheumPalmatum-m.png");
+  background-repeat: no-repeat;
+}
+
+.section-8__img-crocus-sativus {
+  background-image: url("../img/mobile/CrocusSativus-m.png");
+  background-repeat: no-repeat;
+}
+
+.section-8__img-cassia-angustifolia {
+  background-image: url("../img/mobile/CassiaAngustifolia-m.png");
+  background-repeat: no-repeat;
+}
+
+.section-8__img-artemisia-absinthium {
+  background-image: url("../img/mobile/ArtemisiaAbsinthium-m.png");
+  background-repeat: no-repeat;
+}
+
+.section-8__img-curcuma-zedoaria {
+  background-image: url("../img/mobile/CurcumaZedoaria-m.png");
+  background-repeat: no-repeat;
 }
 
 .section-8__items-2-p-left {
@@ -898,8 +952,55 @@ img {
   margin-bottom: 0;
   transform: rotate(-90deg);
   position: relative;
-  top: -273px;
+  top: -385px;
   left: 3px;
+}
+
+.section-8__items-2-p-left-11 {
+  color: #a4c58c;
+  font-size: 12.637px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.899;
+  margin-top: 0;
+  margin-bottom: 0;
+  transform: rotate(-90deg);
+  position: relative;
+  top: -179px;
+  left: -127px;
+}
+
+.section-8__items-2-p-left-11-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.section-8__items-2-p-left-11-txt {
+  color: #cedfc0;
+  font-size: 248.98px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 0.08;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: relative;
+  top: 36px;
+}
+
+.section-8__items-2-p-left-11-info {
+  color: #303030;
+  font-size: 12.629px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.742;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: relative;
+  top: 32px;
+  left: 55px;
 }
 
 .section-8__items-2-p-right {
@@ -910,16 +1011,114 @@ img {
   line-height: 1.899;
   margin-top: 0;
   margin-bottom: 0;
-  transform: rotate(-90deg);
   position: relative;
-  top: -110px;
-  right: -44px;
+  transform: rotate(-90deg);
+}
+
+.section-8__items-2-p-right-angelica-archangelica {
+  top: -190px;
+  right: -50px;
+}
+
+.section-8__items-2-p-right-carlina-acaulis {
+  top: -164px;
+  right: -25px;
+}
+
+.section-8__items-2-p-right-cunnamomum-camphora {
+  top: -201px;
+  right: -61px;
+}
+
+.section-8__items-2-p-right-fraxinus-ornus {
+  top: -163px;
+  right: -28px;
+}
+
+.section-8__items-2-p-right-cammiphora-molmol {
+  top: -185px;
+  right: -47px;
+}
+
+.section-8__items-2-p-right-pheum-palmatum {
+  top: -176px;
+  right: -39px;
+}
+
+.section-8__items-2-p-right-crocus-sativus {
+  top: -163px;
+  right: -27px;
+}
+
+.section-8__items-2-p-right-cassia-angustifolia {
+  top: -178px;
+  right: -37px;
+}
+
+.section-8__items-2-p-right-artemisia-absinthium {
+  top: -187px;
+  right: -49px;
+}
+
+.section-8__items-2-p-right-curcuma-zedoaria {
+  top: -175px;
+  right: -39px;
+}
+
+.section-8__items-2-p-right-theriak-venezian {
+  top: -81px;
+  right: -129px;
 }
 
 .section-8__items-2-flex {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: relative;
+  top: 111px;
+  right: -3px;
+}
+
+.section-8__items-2-flex-11 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: -webkit-min-content;
+  min-width: min-content;
+  min-height: 100%;
+}
+
+.section-8__txt-info {
+  color: #303030;
+  font-size: 14px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 600;
+  line-height: 1.714;
+  text-align: center;
+  margin: 0;
+  padding-top: 45px;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-bottom: 49px;
+}
+
+.section-8__txt-btn {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 600;
+  line-height: 1.833;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  width: 100vw;
+  min-width: 320px;
+  min-height: 70px;
+  margin-left: -11px;
+  margin-right: -11px;
+  padding-top: 26px;
+  padding-bottom: 25px;
+  background-color: #7eb252;
 }
 
 /* --------------------------------------------- */
