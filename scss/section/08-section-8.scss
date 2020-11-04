@@ -19,7 +19,7 @@
 }
 
 .section-8__header {
-    color: #303030;
+    color: #303008;
     font-size: 24px;
     font-family: "Montserrat", Arial, sans-serif;
     font-weight: 700;
@@ -223,6 +223,8 @@
     position: relative;
     top: 32px;
     left: 55px;
+
+    z-index: 1;
 }
 
 .section-8__items-2-p-right {
