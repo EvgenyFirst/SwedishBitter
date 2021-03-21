@@ -1143,24 +1143,36 @@ img {
   font-weight: 700;
   text-align: center;
   line-height: 1.25;
-  margin: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 25px;
+  margin-left: 0;
   padding-left: 1px;
   padding-right: 3px;
 }
 
 .section-9__rewievs {
+  position: absolute;
   margin-left: -11px;
-  margin-right: -11px;
   padding-left: 11px;
-  padding-right: 11px;
+}
+
+.section-9__rewievs-articles {
+  position: relative;
+  display: flex;
+}
+
+.section-9__header-headers {
+  display: flex;
+  justify-content: space-around;
 }
 
 .section-9__rewievs-header {
-  max-width: 160px;
+  width: 100%;
 }
 
-.section-9__rewievs-header:hover {
-  cursor: pointer;
+.section-9__rewievs-hidden {
+  display: none;
 }
 
 .section-9__rewievs-header-txt {
@@ -1174,12 +1186,8 @@ img {
   padding-bottom: 15px;
 }
 
-.section-9__rewievs-header-color-not-ative {
+.section-9__rewievs-header-color-not-active {
   color: #c3c3c3;
-}
-
-.section-9__rewievs-header-right {
-  float: right;
 }
 
 .section-9____article {
@@ -1198,8 +1206,19 @@ img {
   font-weight: 700;
 }
 
-.section-9__rewievs-bg-active,
+.section-9__line {
+  display: block;
+  background-color: #a4c58c;
+  width: 31px;
+  min-height: 3px;
+  margin-bottom: 21px;
+  margin-left: 11px;
+  padding-left: 2px;
+}
+
 .section-9__rewievs-bg {
+  margin-top: -10px;
+  padding-top: 30px;
   background-color: #f6f9f3;
 }
 
@@ -1215,9 +1234,18 @@ img {
   color: #7eb151;
 }
 
-.section-9__right-block {
-  position: relative;
-  top: -422px;
+.section-9__rewievs-bg-header-active {
+  background-color: #f6f9f3;
+}
+.section-9__rewievs-bg-header-active:hover {
+  cursor: default;
+}
+
+.section-9__rewievs-bg-header-not-active {
+  background-color: transparent;
+}
+.section-9__rewievs-bg-header-not-active:hover {
+  cursor: pointer;
 }
 
 /* --------------------------------------------- */
