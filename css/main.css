@@ -31,6 +31,7 @@ html {
 }
 
 body {
+  overflow-x: hidden;
   min-width: 320px;
   margin: 0;
   padding: 0;
@@ -54,11 +55,6 @@ img {
 
 .visually-hidden {
   text-align: center;
-}
-
-.container {
-  width: 1160px;
-  margin: 0 auto;
 }
 
 /* --------------------------------------------- */
@@ -1153,13 +1149,12 @@ img {
 
 .section-9__rewievs {
   position: absolute;
-  margin-left: -11px;
-  padding-left: 11px;
 }
 
 .section-9__rewievs-articles {
   position: relative;
   display: flex;
+  min-height: 390px;
 }
 
 .section-9__header-headers {
@@ -1248,23 +1243,241 @@ img {
   cursor: pointer;
 }
 
+.section-9____reviews-links {
+  display: flex;
+  flex-direction: column;
+  margin-top: -5px;
+  padding-top: 35px;
+  background-color: #f6f9f3;
+}
+
+.section-9____read-more {
+  color: #7eb252;
+  font-size: 14px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.714;
+}
+
+.section-9____winners-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 26px;
+}
+
+.section-9____winners {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Montserrat", Arial, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.833;
+  width: 100%;
+  min-height: 70px;
+  padding-top: 11px;
+  padding-bottom: 9px;
+  background-color: #7eb252;
+}
+
 /* --------------------------------------------- */
 /* --------------------------------------------- */
 /* --------------------------------------------- */
 /* --------------------------------------------- */
-/* Section */
+/* Section 10 */
+/* --------------------------------------------- */
+.section-10 {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-10__info {
+  padding-right: 11px;
+  padding-left: 11px;
+}
+
+.section-10__header {
+  color: #2f2f2f;
+  font-size: 24px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.25;
+  text-align: center;
+  padding-right: 13px;
+  padding-left: 10px;
+}
+
+.section-10__data {
+  color: #2f2f2f;
+  font-size: 14px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: normal;
+  line-height: 1.571;
+  text-align: left;
+  padding-right: 3px;
+  padding-left: 1px;
+}
+
+.section-10__add-data {
+  color: #2f2f2f;
+  font-size: 12px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.571;
+  text-transform: uppercase;
+  line-height: 1.667;
+  text-align: center;
+  padding-right: 18px;
+  padding-left: 14px;
+}
+
+.section-10__link-magic {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Montserrat", Arial, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.833;
+  width: 100%;
+  min-height: 70px;
+  padding-top: 19px;
+  padding-bottom: 12px;
+  background-color: #7eb252;
+}
+
 /* --------------------------------------------- */
 /* --------------------------------------------- */
 /* --------------------------------------------- */
 /* --------------------------------------------- */
+/* Section 11*/
 /* --------------------------------------------- */
-/* Section */
+.section-11 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 45px;
+  background-color: #f6f9f3;
+}
+
+.section-11__main-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 11px;
+  padding-left: 11px;
+}
+
+.section-11__header {
+  color: #2f2f2f;
+  font-size: 24px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 700;
+  line-height: 2.083;
+  text-align: center;
+  padding-right: 22px;
+  padding-left: 20px;
+}
+
+.section-11__data {
+  color: #2f2f2f;
+  font-size: 12px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.667;
+  text-align: center;
+  padding-right: 22px;
+  padding-left: 20px;
+}
+
+.section-11__certificate {
+  background-image: url("../img/mobile/certificate-m.png");
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 434px;
+}
+
+.section-11__info {
+  padding-right: 5px;
+  padding-left: 4px;
+}
+
+.section-11__info-header {
+  color: #a4c58c;
+  font-size: 14px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.714;
+  text-align: center;
+}
+
+.section-11__annotation {
+  color: #2f2f2f;
+  font-size: 14px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: normal;
+  line-height: 1.571;
+  text-align: left;
+}
+
+.section-11__link-order {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: "Montserrat", Arial, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.833;
+  width: 100%;
+  min-height: 60px;
+  margin-top: 15px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  background-color: #7eb252;
+}
+
 /* --------------------------------------------- */
 /* --------------------------------------------- */
 /* --------------------------------------------- */
 /* --------------------------------------------- */
+/* Section 12*/
 /* --------------------------------------------- */
-/* Section */
-/* --------------------------------------------- */
+.section-12 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 28px;
+  margin-right: 11px;
+  margin-left: 11px;
+  margin-bottom: 27px;
+}
+
+.section-12__link {
+  color: #9a9a9a;
+  font-size: 11.571px;
+  font-family: "Montserrat", Arial, sans-serif;
+  text-decoration: none;
+  text-align: center;
+  font-weight: normal;
+  line-height: 2.877;
+  z-index: 2;
+}
+.section-12__link::after {
+  content: " ";
+  display: block;
+  border-bottom: 2px solid #9a9a9a;
+  margin-top: -10px;
+  z-index: 1;
+}
+
 /* --------------------------------------------- */
 /* --------------------------------------------- */

@@ -31,14 +31,13 @@
 
 .section-9__rewievs {
   position: absolute;
-  margin-left: -11px;
-
-  padding-left: 11px;
 }
 
 .section-9__rewievs-articles {
   position: relative;
   display: flex;
+
+  min-height: 390px;
 }
 
 .section-9__header-headers {
@@ -136,6 +135,53 @@
   &:hover {
     cursor: pointer;
   }
+}
+
+.section-9____reviews-links {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: -5px;
+
+  padding-top: 35px;
+
+  background-color: #f6f9f3;
+}
+
+.section-9____read-more {
+  color: #7eb252;
+  font-size: 14px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.714;
+}
+
+.section-9____winners-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 26px;
+}
+
+.section-9____winners {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Montserrat", Arial, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.833;
+
+  width: 100%;
+  min-height: 70px;
+
+  padding-top: 11px;
+  padding-bottom: 9px;
+
+  background-color: #7eb252;
 }
 
 /* --------------------------------------------- */

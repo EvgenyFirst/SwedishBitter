@@ -1,7 +1,104 @@
 /* --------------------------------------------- */
 /* --------------------------------------------- */
-/* Section */
+/* Section 11*/
 /* --------------------------------------------- */
+
+.section-11 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 45px;
+
+    background-color: #f6f9f3;
+}
+
+.section-11__main-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-right: 11px;
+    padding-left: 11px;
+}
+
+.section-11__header {
+    color: #2f2f2f;
+    font-size: 24px;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 700;
+    line-height: 2.083;
+    text-align: center;
+
+    padding-right: 22px;
+    padding-left: 20px;
+}
+
+.section-11__data {
+    color: #2f2f2f;
+    font-size: 12px;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.667;
+    text-align: center;
+
+    padding-right: 22px;
+    padding-left: 20px;
+}
+
+.section-11__certificate {
+    background-image: url("../img/mobile/certificate-m.png");
+    background-repeat: no-repeat;
+
+    width: 280px;
+    height: 434px;
+}
+
+.section-11__info {
+    padding-right: 5px;
+    padding-left: 4px;
+}
+
+.section-11__info-header {
+    color: #a4c58c;
+    font-size: 14px;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.714;
+    text-align: center;
+}
+
+.section-11__annotation {
+    color: #2f2f2f;
+    font-size: 14px;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: normal;
+    line-height: 1.571;
+    text-align: left;
+}
+
+.section-11__link-order {
+    color: #ffffff;
+    font-size: 12px;
+    font-family: "Montserrat", Arial, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.833;
+
+    width: 100%;
+    min-height: 60px;
+
+    margin-top: 15px;
+
+    padding-top: 20px;
+    padding-bottom: 25px;
+
+    background-color: #7eb252;
+}
 
 /* --------------------------------------------- */
 /* --------------------------------------------- */
