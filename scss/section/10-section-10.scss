@@ -70,6 +70,12 @@
     padding-bottom: 12px;
 
     background-color: #7eb252;
+
+    &:hover {
+        transition: 0.5s;
+
+        background-color: #529915;
+    }
 }
 
 /* --------------------------------------------- */

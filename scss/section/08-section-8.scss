@@ -36,12 +36,12 @@
     padding-right: 33px;
 
     li {
-        color:#a4c58c;
+        color: #a4c58c;
 
         &:first-child {
             margin-bottom: 26px;
         }
-    
+
         &:last-child {
             margin-bottom: 24px;
         }
@@ -95,7 +95,7 @@
 
 .section-8__img {
     display: block;
-   
+
     min-width: 300px;
     min-height: 298px;
 
@@ -353,6 +353,12 @@
     padding-bottom: 25px;
 
     background-color: #7eb252;
+
+    &:hover {
+        transition: 0.5s;
+
+        background-color: #529915;
+    }
 }
 
 /* --------------------------------------------- */

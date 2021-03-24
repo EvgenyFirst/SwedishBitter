@@ -614,6 +614,7 @@ img {
   border: none;
 }
 .section-6__form-flex-btn:hover {
+  cursor: pointer;
   transition: 0.5s;
   background-color: #529915;
 }
@@ -1116,6 +1117,10 @@ img {
   padding-bottom: 25px;
   background-color: #7eb252;
 }
+.section-8__txt-btn:hover {
+  transition: 0.5s;
+  background-color: #529915;
+}
 
 /* --------------------------------------------- */
 /* --------------------------------------------- */
@@ -1127,6 +1132,7 @@ img {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1150,15 +1156,17 @@ img {
   position: absolute;
 }
 
-.section-9__rewievs-articles {
-  position: relative;
-  display: flex;
-  min-height: 390px;
-}
-
 .section-9__header-headers {
   display: flex;
   justify-content: space-around;
+  width: 320px;
+}
+
+.section-9__rewievs-articles {
+  position: relative;
+  display: flex;
+  width: 320px;
+  min-height: 390px;
 }
 
 .section-9__rewievs-header {
@@ -1245,6 +1253,7 @@ img {
 .section-9____reviews-links {
   display: flex;
   flex-direction: column;
+  width: 100%;
   margin-top: -5px;
   padding-top: 35px;
   background-color: #f6f9f3;
@@ -1257,6 +1266,9 @@ img {
   font-weight: 700;
   text-align: center;
   line-height: 1.714;
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-9____winners-block {
@@ -1280,6 +1292,10 @@ img {
   padding-top: 11px;
   padding-bottom: 9px;
   background-color: #7eb252;
+}
+.section-9____winners:hover {
+  transition: 0.5s;
+  background-color: #529915;
 }
 
 /* --------------------------------------------- */
@@ -1348,6 +1364,10 @@ img {
   padding-top: 19px;
   padding-bottom: 12px;
   background-color: #7eb252;
+}
+.section-10__link-magic:hover {
+  transition: 0.5s;
+  background-color: #529915;
 }
 
 /* --------------------------------------------- */
@@ -1449,6 +1469,10 @@ img {
   padding-top: 20px;
   padding-bottom: 25px;
   background-color: #7eb252;
+}
+.section-11__link-order:hover {
+  transition: 0.5s;
+  background-color: #529915;
 }
 
 /* --------------------------------------------- */

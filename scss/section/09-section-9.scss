@@ -7,6 +7,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
 
   margin-left: auto;
   margin-right: auto;
@@ -33,16 +34,19 @@
   position: absolute;
 }
 
+.section-9__header-headers {
+  display: flex;
+  justify-content: space-around;
+
+  width: 320px;
+}
+
 .section-9__rewievs-articles {
   position: relative;
   display: flex;
 
+  width: 320px;
   min-height: 390px;
-}
-
-.section-9__header-headers {
-  display: flex;
-  justify-content: space-around;
 }
 
 .section-9__rewievs-header {
@@ -141,6 +145,8 @@
   display: flex;
   flex-direction: column;
 
+  width: 100%;
+
   margin-top: -5px;
 
   padding-top: 35px;
@@ -155,6 +161,11 @@
   font-weight: 700;
   text-align: center;
   line-height: 1.714;
+
+  width: 320px;
+
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-9____winners-block {
@@ -182,6 +193,12 @@
   padding-bottom: 9px;
 
   background-color: #7eb252;
+
+  &:hover {
+    transition: 0.5s;
+
+    background-color: #529915;
+  }
 }
 
 /* --------------------------------------------- */
