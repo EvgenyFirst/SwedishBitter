@@ -58,6 +58,18 @@
 .section-11__info {
     padding-right: 5px;
     padding-left: 4px;
+
+    fieldset {
+        margin: 0;
+        
+        padding: 0;
+
+        border: none;
+
+        legend {
+            text-align: center;
+        }
+    }
 }
 
 .section-11__info-header {

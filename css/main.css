@@ -31,7 +31,6 @@ html {
 }
 
 body {
-  overflow-x: hidden;
   min-width: 320px;
   margin: 0;
   padding: 0;
@@ -1406,6 +1405,14 @@ img {
 .section-11__info {
   padding-right: 5px;
   padding-left: 4px;
+}
+.section-11__info fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.section-11__info fieldset legend {
+  text-align: center;
 }
 
 .section-11__info-header {
