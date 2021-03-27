@@ -22,12 +22,15 @@ body {
     
     background-color: #ffffff;
     background-position: top center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;  
+    
 /*
     background-image: url("../img/bg-sites/index.jpg");
+    opacity: 0.5;
 
     font-family: 'Barlow Semi Condensed', Arial, sans-serif;
     font-family: 'Montserrat', Arial, sans-serif;
+    
 */
 }
 
@@ -36,5 +39,5 @@ img {
 }
 
 .visually-hidden {
-    text-align: center;
+    display: none;
 }

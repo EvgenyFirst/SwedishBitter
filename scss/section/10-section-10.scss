@@ -4,7 +4,7 @@
 /* --------------------------------------------- */
 
 .section-10 {
-    margin-top: 50px;
+    margin-top: 38px;
 
     display: flex;
     flex-direction: column;
@@ -35,7 +35,8 @@
     line-height: 1.571;
     text-align: left;
 
-    padding-right: 3px;
+    padding-top: 7px;
+    padding-right: 13px;
     padding-left: 1px;
 }
 
@@ -49,8 +50,12 @@
     line-height: 1.667;
     text-align: center;
 
+    margin-top: -12px;
+
     padding-right: 18px;
     padding-left: 14px;
+
+    z-index: 2;
 }
 
 .section-10__link-magic {
@@ -66,8 +71,10 @@
     width: 100%;
     min-height: 70px;
 
-    padding-top: 19px;
-    padding-bottom: 12px;
+    margin-top: 25px;
+    
+    padding-top: 12px;
+    padding-bottom: 6px;
 
     background-color: #7eb252;
 
