@@ -42,9 +42,11 @@ body {
   background-repeat: no-repeat;
   /*
       background-image: url("../img/bg-sites/index.jpg");
+      opacity: 0.5;
 
       font-family: 'Barlow Semi Condensed', Arial, sans-serif;
       font-family: 'Montserrat', Arial, sans-serif;
+
   */
 }
 
@@ -53,7 +55,7 @@ img {
 }
 
 .visually-hidden {
-  text-align: center;
+  display: none;
 }
 
 /* --------------------------------------------- */
@@ -70,7 +72,7 @@ img {
   align-items: center;
   margin-left: 11px;
   margin-right: 11px;
-  padding-top: 15px;
+  padding-top: 17px;
   padding-left: 1px;
 }
 
@@ -117,7 +119,7 @@ img {
 }
 
 .section-2__header-1 {
-  margin-top: 46px;
+  margin-top: 28px;
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 0;
@@ -131,7 +133,7 @@ img {
 }
 
 .section-2__header-2 {
-  margin-top: 0;
+  margin-top: 4px;
   margin-left: 78px;
   margin-right: 77px;
   margin-bottom: 25px;
@@ -150,7 +152,7 @@ img {
   background-repeat: no-repeat;
   width: 86px;
   height: 188px;
-  margin-bottom: 17px;
+  margin-bottom: 32px;
 }
 
 .section-2__link {
@@ -203,22 +205,38 @@ img {
 }
 
 .section-3__flex-block-2 {
+  margin-top: -31px;
   padding-right: 14px;
 }
 
 .section-3__flex-block-3 {
+  margin-top: -33px;
   padding-right: 18px;
+}
+
+.section-3__flex-block-4 {
+  margin-top: -30px;
 }
 
 .section-3__info-1 {
   width: -webkit-max-content;
   width: max-content;
-  border-bottom: 3px solid #a4c58c;
+  margin-top: 47px;
   color: #a4c58c;
   font-size: 24px;
   font-family: "Montserrat", Arial, sans-serif;
   line-height: 1.833;
   font-weight: 600;
+}
+.section-3__info-1::after {
+  content: " ";
+  display: block;
+  width: 73%;
+  border-bottom: 3px solid #a4c58c;
+}
+.section-3__info-1 span {
+  font-size: 17px;
+  margin-left: -4px;
 }
 
 .section-3__info-2 {
@@ -227,6 +245,7 @@ img {
   font-family: "Montserrat", Arial, sans-serif;
   line-height: 1.5;
   font-weight: 500;
+  margin-top: -4px;
 }
 
 .section-3__info-2-add {
@@ -246,7 +265,7 @@ img {
 }
 
 .section-4__header {
-  margin-top: 0;
+  margin-top: -9px;
   margin-left: 11px;
   margin-right: 11px;
   margin-bottom: 0;
@@ -263,6 +282,7 @@ img {
 
 .section-4__container {
   width: 320px;
+  margin-top: 16px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 11px;
@@ -280,6 +300,38 @@ img {
   display: flex;
   justify-content: left;
   align-items: baseline;
+}
+
+.section-4__item-02 {
+  margin-top: -12px;
+}
+
+.section-4__item-03 {
+  margin-top: -10px;
+}
+
+.section-4__item-04 {
+  margin-top: -12px;
+}
+
+.section-4__item-05 {
+  margin-top: -10px;
+}
+
+.section-4__item-06 {
+  margin-top: 1px;
+}
+
+.section-4__item-07 {
+  margin-top: -12px;
+}
+
+.section-4__item-08 {
+  margin-top: -22px;
+}
+
+.section-4__item-09 {
+  margin-top: -12px;
 }
 
 .section-4__item-p {
@@ -302,6 +354,7 @@ img {
   min-width: 91%;
   margin-top: 0;
   margin-bottom: 0;
+  margin-left: -13px;
   padding-top: 30px;
   padding-bottom: 29px;
   border-bottom: 2px solid #e6efde;
@@ -317,6 +370,18 @@ img {
   padding-right: 11px;
 }
 
+.section-4__item-info-add-personal-06 {
+  position: relative;
+  top: -12px;
+  font-size: 14px;
+}
+
+.section-4__item-info-add-personal-07 {
+  position: relative;
+  top: -12px;
+  font-size: 14px;
+}
+
 .section-4__item-info-1 {
   margin-top: 40px;
   padding-top: 0;
@@ -325,11 +390,13 @@ img {
 .section-4__fieldset {
   transform: scale(1, -1);
   border: 1px solid #c5dab5;
-  margin-top: -6px;
+  width: 100%;
+  margin-top: 2px;
+  margin-left: 0px;
   padding-top: 30px;
-  padding-left: 17px;
+  padding-left: 10px;
   padding-right: 10px;
-  padding-bottom: 40px;
+  padding-bottom: 0;
 }
 
 .section-4__legend {
@@ -361,8 +428,14 @@ img {
   font-family: "Montserrat", Arial, sans-serif;
   font-weight: 500;
   line-height: 1.714;
-  margin: 0;
-  padding: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 23px;
+  margin-left: 0;
+  padding-top: 10px;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 9px;
 }
 
 .section-4__link-2 {
@@ -377,7 +450,7 @@ img {
   width: 100%;
   min-width: 320px;
   min-height: 70px;
-  margin-top: 19px;
+  margin-top: 15px;
   padding-top: 26px;
   padding-bottom: 25px;
   background-color: #7eb252;
@@ -394,12 +467,13 @@ img {
 /* Section-5 */
 /* --------------------------------------------- */
 .section-5 {
+  margin-top: 59px;
   margin-left: 11px;
   margin-right: 11px;
 }
 
 .section-5__header {
-  margin-top: 59px;
+  margin-top: -7px;
   padding-left: 2px;
   color: #303030;
   font-size: 24px;
@@ -410,7 +484,10 @@ img {
 }
 
 .section-5__variables {
-  margin: 0;
+  margin-top: 21px;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
   color: #303030;
   font-size: 12px;
   font-family: "Montserrat", Arial, sans-serif;
@@ -432,13 +509,29 @@ img {
   margin-bottom: 23px;
 }
 
+.section-5__item-01 {
+  margin-top: 20px;
+}
+
+.section-5__item-02 {
+  margin-top: -6px;
+}
+
+.section-5__item-03 {
+  margin-top: -7px;
+}
+
+.section-5__item-04 {
+  margin-top: -3px;
+}
+
 .section-5__item-arrow {
   background-image: url("../img/mobile/arrowRight-m.png");
   background-repeat: no-repeat;
   width: 19px;
   min-height: 14px;
   padding-left: 1px;
-  padding-right: 11px;
+  padding-right: 20px;
 }
 
 .section-5__item-info {
@@ -464,7 +557,7 @@ img {
   min-height: 244px;
   position: relative;
   left: -11px;
-  margin-top: 0px;
+  margin-top: 3px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 40px;
@@ -495,6 +588,7 @@ img {
   width: 100vw;
   min-width: 320px;
   min-height: 70px;
+  margin-top: 2px;
   margin-left: -11px;
   margin-right: -11px;
   padding-top: 26px;
@@ -523,7 +617,7 @@ img {
 }
 
 .section-6__header {
-  margin-top: 55px;
+  margin-top: 53px;
   margin-bottom: 0;
   padding-left: 9px;
   padding-right: 14px;
@@ -541,10 +635,14 @@ img {
   font-family: "Montserrat", Arial, sans-serif;
   font-weight: 600;
   line-height: 1.714;
-  margin-top: 22px;
+  margin-top: 17px;
   margin-bottom: 0;
   padding-left: 2px;
   padding-right: 3px;
+}
+
+.section-6__info-03 {
+  margin-top: 0;
 }
 
 .section-6__famoso-doctor-pareselsvs {
@@ -554,7 +652,7 @@ img {
   min-height: 382px;
   position: relative;
   left: -11px;
-  margin-top: 21px;
+  margin-top: 29px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 29px;
@@ -577,7 +675,7 @@ img {
   margin-bottom: 0;
   padding-left: 40px;
   padding-right: 44px;
-  padding-bottom: 34px;
+  padding-bottom: 26px;
 }
 
 .section-6__form-flex-input {
@@ -632,7 +730,7 @@ img {
   font-weight: 700;
   text-align: center;
   line-height: 1.714;
-  margin-top: 0;
+  margin-top: -5px;
   margin-bottom: 0;
   padding-left: 2px;
   padding-right: 5px;
@@ -645,7 +743,7 @@ img {
   font-weight: 600;
   text-align: center;
   line-height: 1.286;
-  margin-top: 20px;
+  margin-top: 37px;
   margin-bottom: 10px;
   padding-left: 75px;
   padding-right: 77px;
@@ -691,7 +789,7 @@ img {
   line-height: 1.25;
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 56px;
+  padding-top: 48px;
   padding-left: 26px;
   padding-right: 28px;
 }
@@ -702,6 +800,7 @@ img {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  margin-top: 10px;
   padding-left: 0;
 }
 
@@ -789,11 +888,11 @@ img {
 }
 
 .section-7__items-header-02 {
-  margin-top: 26px;
+  margin-top: 31px;
 }
 
 .section-7__items-header-03 {
-  margin-top: 26px;
+  margin-top: 35px;
 }
 
 /* --------------------------------------------- */
@@ -806,7 +905,7 @@ img {
   width: 320px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 52px;
+  padding-top: 41px;
   padding-bottom: 55px;
   display: flex;
   justify-content: center;
@@ -827,13 +926,15 @@ img {
 }
 
 .section-8__items-1 {
-  padding-right: 33px;
+  margin-top: 23px;
+  padding-left: 50px;
+  padding-right: 7px;
 }
 .section-8__items-1 li {
   color: #a4c58c;
 }
 .section-8__items-1 li:first-child {
-  margin-bottom: 26px;
+  margin-bottom: 37px;
 }
 .section-8__items-1 li:last-child {
   margin-bottom: 24px;
@@ -852,9 +953,10 @@ img {
 .section-8__items-2 {
   list-style: none;
   width: 320px;
-  margin-left: auto;
+  margin-top: -6px;
   margin-right: auto;
   margin-bottom: 0;
+  margin-left: auto;
   padding-left: 11px;
   padding-right: 11px;
 }
@@ -874,8 +976,8 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
 }
 
 .section-8__img {
@@ -891,51 +993,61 @@ img {
 .section-8__img-angelica-archangelica {
   background-image: url("../img/mobile/AngelicaArchangelica-m.png");
   background-repeat: no-repeat;
+  margin-top: -9px;
 }
 
 .section-8__img-carlina-acaulis {
   background-image: url("../img/mobile/CarlinaAcaulis-m.png");
   background-repeat: no-repeat;
+  margin-top: -28px;
 }
 
 .section-8__img-cunnamomum-camphora {
   background-image: url("../img/mobile/CunnamomumCamphora-m.png");
   background-repeat: no-repeat;
+  margin-top: -22px;
 }
 
 .section-8__img-fraxinus-ornus {
   background-image: url("../img/mobile/FraxinusOrnus-m.png");
   background-repeat: no-repeat;
+  margin-top: -23px;
 }
 
 .section-8__img-cammiphora-mol {
   background-image: url("../img/mobile/CammiphoraMolmol-m.png");
   background-repeat: no-repeat;
+  margin-top: -23px;
 }
 
 .section-8__img-pheum-palmatum {
   background-image: url("../img/mobile/PheumPalmatum-m.png");
   background-repeat: no-repeat;
+  margin-top: -27px;
 }
 
 .section-8__img-crocus-sativus {
   background-image: url("../img/mobile/CrocusSativus-m.png");
   background-repeat: no-repeat;
+  margin-top: -25px;
 }
 
 .section-8__img-cassia-angustifolia {
   background-image: url("../img/mobile/CassiaAngustifolia-m.png");
   background-repeat: no-repeat;
+  margin-top: -22px;
 }
 
 .section-8__img-artemisia-absinthium {
   background-image: url("../img/mobile/ArtemisiaAbsinthium-m.png");
   background-repeat: no-repeat;
+  margin-top: -26px;
 }
 
 .section-8__img-curcuma-zedoaria {
   background-image: url("../img/mobile/CurcumaZedoaria-m.png");
   background-repeat: no-repeat;
+  margin-top: -22px;
 }
 
 .section-8__items-2-p-left {
@@ -948,7 +1060,7 @@ img {
   margin-bottom: 0;
   transform: rotate(-90deg);
   position: relative;
-  top: -385px;
+  top: -380px;
   left: 3px;
 }
 
@@ -964,11 +1076,16 @@ img {
   position: relative;
   top: -179px;
   left: -127px;
+  cursor: default;
 }
 
 .section-8__items-2-p-left-11-flex {
   display: flex;
   flex-direction: row;
+}
+
+.section-8__items-2-p-left-11-11 {
+  top: -199px;
 }
 
 .section-8__items-2-p-left-11-txt {
@@ -982,7 +1099,8 @@ img {
   margin-top: 0;
   margin-bottom: 0;
   position: relative;
-  top: 36px;
+  top: 13px;
+  cursor: default;
 }
 
 .section-8__items-2-p-left-11-info {
@@ -1010,60 +1128,61 @@ img {
   margin-bottom: 0;
   position: relative;
   transform: rotate(-90deg);
+  cursor: default;
 }
 
 .section-8__items-2-p-right-angelica-archangelica {
-  top: -190px;
-  right: -50px;
-}
-
-.section-8__items-2-p-right-carlina-acaulis {
-  top: -164px;
-  right: -25px;
-}
-
-.section-8__items-2-p-right-cunnamomum-camphora {
-  top: -201px;
-  right: -61px;
-}
-
-.section-8__items-2-p-right-fraxinus-ornus {
-  top: -163px;
-  right: -28px;
-}
-
-.section-8__items-2-p-right-cammiphora-molmol {
-  top: -185px;
+  top: -210px;
   right: -47px;
 }
 
+.section-8__items-2-p-right-carlina-acaulis {
+  top: -182px;
+  right: -21px;
+}
+
+.section-8__items-2-p-right-cunnamomum-camphora {
+  top: -224px;
+  right: -57px;
+}
+
+.section-8__items-2-p-right-fraxinus-ornus {
+  top: -188px;
+  right: -20px;
+}
+
+.section-8__items-2-p-right-cammiphora-molmol {
+  top: -208px;
+  right: -42px;
+}
+
 .section-8__items-2-p-right-pheum-palmatum {
-  top: -176px;
-  right: -39px;
+  top: -197px;
+  right: -33px;
 }
 
 .section-8__items-2-p-right-crocus-sativus {
-  top: -163px;
-  right: -27px;
+  top: -184px;
+  right: -19px;
 }
 
 .section-8__items-2-p-right-cassia-angustifolia {
-  top: -178px;
-  right: -37px;
+  top: -198px;
+  right: -36px;
 }
 
 .section-8__items-2-p-right-artemisia-absinthium {
-  top: -187px;
-  right: -49px;
+  top: -206px;
+  right: -44px;
 }
 
 .section-8__items-2-p-right-curcuma-zedoaria {
-  top: -175px;
-  right: -39px;
+  top: -198px;
+  right: -33px;
 }
 
 .section-8__items-2-p-right-theriak-venezian {
-  top: -81px;
+  top: -105px;
   right: -129px;
 }
 
@@ -1093,7 +1212,7 @@ img {
   line-height: 1.714;
   text-align: center;
   margin: 0;
-  padding-top: 45px;
+  padding-top: 11px;
   padding-left: 28px;
   padding-right: 28px;
   padding-bottom: 49px;
@@ -1110,11 +1229,10 @@ img {
   text-align: center;
   width: 100vw;
   min-width: 320px;
-  min-height: 70px;
-  margin-left: -11px;
+  min-height: 62px;
   margin-right: -11px;
-  padding-top: 26px;
-  padding-bottom: 25px;
+  margin-left: -11px;
+  padding-top: 23px;
   background-color: #7eb252;
 }
 .section-8__txt-btn:hover {
@@ -1156,6 +1274,10 @@ img {
   position: absolute;
 }
 
+.section-9__rewievs-two {
+  margin-top: 25px;
+}
+
 .section-9__header-headers {
   display: flex;
   justify-content: space-around;
@@ -1184,7 +1306,7 @@ img {
   text-transform: uppercase;
   text-align: center;
   line-height: 1.8;
-  padding-top: 15px;
+  padding-top: 6px;
   padding-bottom: 15px;
 }
 
@@ -1198,7 +1320,7 @@ img {
   font-family: "Montserrat", Arial, sans-serif;
   font-weight: 400;
   line-height: 1.571;
-  margin-top: -10px;
+  margin-top: -5px;
   padding-left: 12px;
   padding-right: 22px;
 }
@@ -1206,6 +1328,8 @@ img {
 .section-9____article-add {
   color: #2f2f2f;
   font-weight: 700;
+  margin-left: -2px;
+  padding-top: 12px;
 }
 
 .section-9__line {
@@ -1267,8 +1391,10 @@ img {
   text-align: center;
   line-height: 1.714;
   width: 320px;
-  margin-left: auto;
+  margin-top: 60px;
   margin-right: auto;
+  margin-left: auto;
+  z-index: 2;
 }
 
 .section-9____winners-block {
@@ -1305,7 +1431,7 @@ img {
 /* Section 10 */
 /* --------------------------------------------- */
 .section-10 {
-  margin-top: 50px;
+  margin-top: 38px;
   display: flex;
   flex-direction: column;
 }
@@ -1333,7 +1459,8 @@ img {
   font-weight: normal;
   line-height: 1.571;
   text-align: left;
-  padding-right: 3px;
+  padding-top: 7px;
+  padding-right: 13px;
   padding-left: 1px;
 }
 
@@ -1346,8 +1473,10 @@ img {
   text-transform: uppercase;
   line-height: 1.667;
   text-align: center;
+  margin-top: -12px;
   padding-right: 18px;
   padding-left: 14px;
+  z-index: 2;
 }
 
 .section-10__link-magic {
@@ -1361,8 +1490,9 @@ img {
   line-height: 1.833;
   width: 100%;
   min-height: 70px;
-  padding-top: 19px;
-  padding-bottom: 12px;
+  margin-top: 25px;
+  padding-top: 12px;
+  padding-bottom: 6px;
   background-color: #7eb252;
 }
 .section-10__link-magic:hover {
@@ -1380,7 +1510,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 45px;
+  padding-top: 26px;
   background-color: #f6f9f3;
 }
 
@@ -1411,8 +1541,9 @@ img {
   text-transform: uppercase;
   line-height: 1.667;
   text-align: center;
-  padding-right: 22px;
-  padding-left: 20px;
+  margin-top: -9px;
+  padding-right: 17px;
+  padding-left: 11px;
 }
 
 .section-11__certificate {
@@ -1420,9 +1551,11 @@ img {
   background-repeat: no-repeat;
   width: 280px;
   height: 434px;
+  margin-top: 13px;
 }
 
 .section-11__info {
+  margin-top: 19px;
   padding-right: 5px;
   padding-left: 4px;
 }
@@ -1454,6 +1587,14 @@ img {
   text-align: left;
 }
 
+.section-11__annotation-01 {
+  margin-top: -5px;
+}
+
+.section-11__annotation-02 {
+  margin-top: 26px;
+}
+
 .section-11__link-order {
   color: #ffffff;
   font-size: 12px;
@@ -1467,7 +1608,7 @@ img {
   min-height: 60px;
   margin-top: 15px;
   padding-top: 20px;
-  padding-bottom: 25px;
+  padding-bottom: 19px;
   background-color: #7eb252;
 }
 .section-11__link-order:hover {
@@ -1486,7 +1627,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 28px;
+  margin-top: 17px;
   margin-right: 11px;
   margin-left: 11px;
   margin-bottom: 27px;

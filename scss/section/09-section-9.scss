@@ -34,6 +34,10 @@
   position: absolute;
 }
 
+.section-9__rewievs-two {
+  margin-top: 25px;
+}
+
 .section-9__header-headers {
   display: flex;
   justify-content: space-around;
@@ -65,7 +69,7 @@
   text-align: center;
   line-height: 1.8;
 
-  padding-top: 15px;
+  padding-top: 6px;
   padding-bottom: 15px;
 }
 
@@ -80,7 +84,7 @@
   font-weight: 400;
   line-height: 1.571;
 
-  margin-top: -10px;
+  margin-top: -5px;
 
   padding-left: 12px;
   padding-right: 22px;
@@ -89,6 +93,10 @@
 .section-9____article-add {
   color: #2f2f2f;
   font-weight: 700;
+
+  margin-left: -2px;
+
+  padding-top: 12px;
 }
 
 .section-9__line {
@@ -164,8 +172,11 @@
 
   width: 320px;
 
-  margin-left: auto;
+  margin-top: 60px;
   margin-right: auto;
+  margin-left: auto;
+
+  z-index: 2;
 }
 
 .section-9____winners-block {

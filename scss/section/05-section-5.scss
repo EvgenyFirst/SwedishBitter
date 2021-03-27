@@ -4,12 +4,13 @@
 /* --------------------------------------------- */
 
 .section-5 {
+    margin-top: 59px;
     margin-left: 11px;
     margin-right: 11px;
 }
 
 .section-5__header {
-    margin-top: 59px;
+    margin-top: -7px;
 
     padding-left: 2px;
 
@@ -22,7 +23,10 @@
 }
 
 .section-5__variables {
-    margin: 0;
+    margin-top: 21px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
 
     color: #303030;
     font-size: 12px;
@@ -46,6 +50,22 @@
     margin-bottom: 23px;
 }
 
+.section-5__item-01 {
+    margin-top: 20px;
+}
+
+.section-5__item-02 {
+    margin-top: -6px;
+}
+
+.section-5__item-03 {
+    margin-top: -7px;
+}
+
+.section-5__item-04 {
+    margin-top: -3px;
+}
+
 .section-5__item-arrow {
     background-image: url("../img/mobile/arrowRight-m.png");
     background-repeat: no-repeat;
@@ -54,7 +74,7 @@
     min-height: 14px;
 
     padding-left: 1px;
-    padding-right: 11px;
+    padding-right: 20px;
 }
 
 .section-5__item-info {
@@ -85,7 +105,7 @@
     position: relative;
     left: -11px;
 
-    margin-top: 0px;
+    margin-top: 3px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
@@ -115,25 +135,25 @@
     text-transform: uppercase;
     text-decoration: none;
     text-align: center;
-    
+
     width: 100vw;
     min-width: 320px;
     min-height: 70px;
 
+    margin-top: 2px;
     margin-left: -11px;
     margin-right: -11px;
-    
+
     padding-top: 26px;
     padding-bottom: 25px;
-    
+
     background-color: #7eb252;
-    
+
     &:hover {
         transition: 0.5s;
         background-color: #529915;
-    }    
+    }
 }
-
 
 /* --------------------------------------------- */
 /* --------------------------------------------- */

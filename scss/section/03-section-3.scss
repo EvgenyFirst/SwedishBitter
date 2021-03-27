@@ -25,24 +25,47 @@
 }
 
 .section-3__flex-block-2 {
+    margin-top: -31px;
+
     padding-right: 14px;
 }
 
 .section-3__flex-block-3 {
+    margin-top: -33px;
+
     padding-right: 18px;
+}
+
+.section-3__flex-block-4 {
+    margin-top: -30px;
 }
 
 
 .section-3__info-1 {
     width: max-content;
 
-    border-bottom: 3px solid #a4c58c;
-
+    margin-top: 47px;
+    
     color: #a4c58c;
     font-size: 24px;
     font-family: "Montserrat", Arial, sans-serif;
     line-height: 1.833;
     font-weight: 600;
+
+    &::after {
+        content: " ";
+        display: block;
+
+        width: 73%;
+
+        border-bottom: 3px solid #a4c58c;
+    }
+
+    span {
+        font-size: 17px;
+
+        margin-left: -4px;
+    }
 }
 
 .section-3__info-2 {
@@ -51,6 +74,8 @@
     font-family: "Montserrat", Arial, sans-serif;
     line-height: 1.5;
     font-weight: 500;
+
+    margin-top: -4px;
 }
 
 .section-3__info-2-add {

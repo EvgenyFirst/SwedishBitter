@@ -8,7 +8,7 @@
     flex-direction: column;
     align-items: center;
 
-    padding-top: 45px;
+    padding-top: 26px;
 
     background-color: #f6f9f3;
 }
@@ -43,8 +43,10 @@
     line-height: 1.667;
     text-align: center;
 
-    padding-right: 22px;
-    padding-left: 20px;
+    margin-top: -9px;
+
+    padding-right: 17px;
+    padding-left: 11px;
 }
 
 .section-11__certificate {
@@ -53,9 +55,13 @@
 
     width: 280px;
     height: 434px;
+
+    margin-top: 13px;
 }
 
 .section-11__info {
+    margin-top: 19px;
+
     padding-right: 5px;
     padding-left: 4px;
 
@@ -91,6 +97,14 @@
     text-align: left;
 }
 
+.section-11__annotation-01 {
+    margin-top: -5px;
+}
+
+.section-11__annotation-02 {
+    margin-top: 26px;
+}
+
 .section-11__link-order {
     color: #ffffff;
     font-size: 12px;
@@ -107,7 +121,7 @@
     margin-top: 15px;
 
     padding-top: 20px;
-    padding-bottom: 25px;
+    padding-bottom: 19px;
 
     background-color: #7eb252;
 
