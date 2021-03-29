@@ -13,6 +13,15 @@
     background-image: url("../img/mobile/bg-header-m.png");
     background-position-x: -884px;
     background-repeat: no-repeat;
+
+    @media (min-width: 768px) {
+        background-image: url("../img/tablet/bg-header-t.png");
+        background-position-x: -775px;
+        background-position-y: -14px;
+
+        min-width: 100%;
+        min-height: 544px;
+    }
 }
 
 .section-2__flex {
@@ -66,6 +75,13 @@
     @media (min-width: 443px) {
         margin-bottom: 53px;
     }
+
+    @media (min-width: 443px) {
+        background-image: url("../img/tablet/SwedishBitter-t.png");
+
+        width: 298px;
+        height: 648px;    
+    }
 }
 
 .section-2__link {
@@ -92,6 +108,10 @@
 
     @media (min-width: 443px) {
         margin-top: 14px;
+    }
+
+    @media (min-width: 768px) {
+        display: none;
     }
 }
 
