@@ -62,6 +62,10 @@
     height: 188px;
 
     margin-bottom: 32px;
+
+    @media (min-width: 443px) {
+        margin-bottom: 53px;
+    }
 }
 
 .section-2__link {
@@ -85,11 +89,9 @@
         transition: 0.5s;
         background-color: #529915;
     }
-}
 
-@media (min-width: 443px) {
-    .section-2__img {
-        margin-bottom: 53px;
+    @media (min-width: 443px) {
+        margin-top: 14px;
     }
 }
 
