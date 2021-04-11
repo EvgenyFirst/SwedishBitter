@@ -22,12 +22,49 @@
         min-width: 100%;
         min-height: 544px;
     }
+
+    @media (min-width: 954px) { 
+        background-position-x: center;
+    }
+}
+
+.section-2__container {
+    @media (min-width: 768px) {
+        margin-right: auto;
+        margin-left: auto;
+
+        width: 768px;
+    }
 }
 
 .section-2__flex {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    @media (min-width: 768px) {
+        flex-direction: row-reverse;
+
+        width: 724px;
+
+        margin-right: 12px;
+        margin-left: 12px;
+
+        padding-right: 10px;
+        padding-left: 2px;
+    }
+}
+
+.section-2__flex-right {
+    @media (min-width: 768px) {
+        width: 100%;
+        min-width: 362px;
+
+        margin-top: -288px;
+        margin-left: 66px;
+
+        padding-left: 10px;
+    }
 }
 
 .section-2__header-1 {
@@ -43,7 +80,15 @@
     font-family: "Montserrat", Arial, sans-serif;
     line-height: 2.3;
     font-weight: 600;
+    text-align: center;
     text-transform: uppercase;
+
+    @media (min-width: 768px) {
+        margin-left: 0;
+
+        font-size: 14px;
+        text-align: left;
+    }
 }
 
 .section-2__header-2 {
@@ -61,6 +106,26 @@
     line-height: 1.2;
     font-weight: 600;
     text-align: center;
+
+    @media (min-width: 768px) {
+        margin-left: 0;
+
+        font-size: 50px;
+        text-align: left;
+    }
+}
+
+.section-2__info {
+    display: none;
+
+    @media (min-width: 768px) {
+        display: block;
+
+        color: #ffffff;
+        font-size: 16px;
+        font-family: "Montserrat", Arial, sans-serif;
+        line-height: 1.5;
+    }
 }
 
 .section-2__img {
@@ -76,11 +141,14 @@
         margin-bottom: 53px;
     }
 
-    @media (min-width: 443px) {
+    @media (min-width: 768px) {
         background-image: url("../img/tablet/SwedishBitter-t.png");
 
-        width: 298px;
-        height: 648px;    
+        width: 100%;
+        max-width: 298px;
+        height: 648px;
+
+        margin-top: 96px;
     }
 }
 
@@ -112,6 +180,123 @@
 
     @media (min-width: 768px) {
         display: none;
+    }
+}
+
+.section-2__form {
+    display: none;
+
+    @media (min-width: 768px) {
+        display: block;
+
+        position: relative;
+
+        margin-top: -359px;
+        margin-right: 21px;
+        margin-left: auto;
+
+        padding-top: 5px;
+        padding-right: 19px;
+        padding-left: 21px;
+
+        width: 100%;
+        max-width: 571px;
+        min-height: 296px;
+
+        background-color: #ffffff;
+
+        // border: 1px solid black;
+    }
+}
+
+.section-2__form-flex {
+    margin-top: 19px;
+    margin-left: auto;
+
+    padding-left: 50px;
+
+    width: 100%;
+    max-width: 551px;
+    min-height: 277px;
+
+    border: 1px solid #c8dcba;
+}
+
+.section-2__form-flex-p {
+    color: #303030;
+    font-size: 14px;
+    font-family: "Montserrat", Arial, sans-serif;
+    line-height: 1.571;
+    font-weight: 600;
+    text-align: left;
+    text-transform: uppercase;
+
+    margin-top: 34px;
+    margin-bottom: 35px;
+}
+
+.section-2__form-flex-input {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #cddcbc;
+
+    margin-right: 30px;
+
+    &::placeholder {
+        color: #a8c58d;
+        font-size: 14px;
+        font-family: "Montserrat", Arial, sans-serif;
+        line-height: 1.571;
+        text-align: left;
+
+        padding-left: 1px;
+    }
+}
+
+.section-2__form-flex-btn {
+    margin-top: 89px;
+    margin-left: auto;
+
+    width: 100%;
+    max-width: 250px;
+    min-height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: none;
+
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "Montserrat", Arial, sans-serif;
+    line-height: 1.571;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+
+    background-color: #7eb252;
+
+    cursor: pointer;
+
+    &:hover {
+        transition: 0.5s;
+        background-color: #529915;
+    }
+
+    &::after {
+        content: " ";
+
+        display: block;
+
+        background-image: url("../img/tablet/arrowRight-t.png");
+
+        width: 100%;
+        max-width: 31px;
+        height: 9px;
+
+        margin-left: 18px;
     }
 }
 

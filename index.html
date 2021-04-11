@@ -41,19 +41,44 @@
   <!--  -->
   <!-- Section-2 -->
   <section class="section-2">
-    <div class="section-2__flex">
-      <h2 class="section-2__header-1">
-        Сбор трав
-      </h2>
-      <h1 class="section-2__header-2">
-        Шведская горечь
-      </h1>
-      <span class="section-2__img"></span>
-      <a href="#" class="section-2__link" title="SwedishBitter. Данный макет является
-				тренировочным, продажа препарата
-				НЕ ОСУЩЕСТВЛЯЕТСЯ.">
-        Узнать больше
-      </a>
+    <div class="section-2__container">
+      <div class="section-2__flex">
+        <div class="section-2__flex-right">
+          <h2 class="section-2__header-1">
+            Сбор трав
+          </h2>
+          <h1 class="section-2__header-2">
+            Шведская горечь
+          </h1>
+          <p class="section-2__info">
+            Не имеет аналогов в мире
+            по оздоровительной силе
+            и широте лечебных
+            свойств
+          </p>
+        </div>
+        <span class="section-2__img"></span>
+        <a href="#" class="section-2__link" title="SwedishBitter. Данный макет является
+          тренировочным, продажа препарата
+          НЕ ОСУЩЕСТВЛЯЕТСЯ.">
+          Узнать больше
+        </a>
+      </div>
+      <form method="post" class="section-2__form" action="mail-2.php" id="form-s-2" name="form-s-2">
+        <div class="section-2__form-flex">
+          <p class="section-2__form-flex-p">
+            Узнайте подробнее<br>
+            о бальзаме
+          </p>
+          <input class="section-2__form-flex-input" type="text" name="email" placeholder="Имя (протестировать)"
+            required="">
+          <input class="section-2__form-flex-input" type="text" name="tel" placeholder="Телефон (протестировать)"
+            required="">
+          <button id="submit" type="submit" class="section-2__form-flex-btn" title="SwedishBitter. Данный макет является
+            тренировочным, продажа препарата
+            НЕ ОСУЩЕСТВЛЯЕТСЯ.">узнать</button>
+        </div>
+      </form>
     </div>
   </section>
   <!-- Section-2 End -->
@@ -63,17 +88,17 @@
   <section class="section-3">
     <h1 class="visually-hidden">Статистика использования препарата</h1>
     <div class="section-3__flex">
-      <div class="section-3__flex-block-1">
+      <div class="section-3__flex-block-1 section-3__flex-block-1-3">
         <p class="section-3__info-1">
           1978 <span>г.</span>
         </p>
         <p class="section-3__info-2">
           Европейцы используют
-          шведскую горечь еще
-          с 1978 года
+          шведскую горечь еще с<br class="section-3__info-br"> 
+          1978 года
         </p>
       </div>
-      <div class="section-3__flex-block-2">
+      <div class="section-3__flex-block-2 section-3__flex-block-2-4">
         <p class="section-3__info-1">
           104 <span>года</span>
         </p>
@@ -82,21 +107,21 @@
           автор бальзама
         </p>
       </div>
-      <div class="section-3__flex-block-3">
+      <div class="section-3__flex-block-3 section-3__flex-block-1-3">
         <p class="section-3__info-1">
           40 <span>показаний</span>
         </p>
         <p class="section-3__info-2">
-          Больше 40 показаний
+          Больше 40 показаний<br class="section-3__info-br"> 
           к применению
         </p>
       </div>
-      <div class="section-3__flex-block-4">
+      <div class="section-3__flex-block-4  section-3__flex-block-2-4">
         <p class="section-3__info-1">
           24 <span>языка</span>
         </p>
         <p class="section-3__info-2 section-3__info-2-add">
-          8 млн книг на 24 языках
+          8 млн книг на 24 языках<br class="section-3__info-br"> 
           продано о бальзаме
         </p>
       </div>
@@ -778,7 +803,7 @@
   <!--  -->
 
   <script src="js/reviews-slider.js"></script>
-  
+
 </body>
 
 </html>

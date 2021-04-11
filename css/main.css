@@ -37,6 +37,7 @@ body {
   font-family: "Barlow Semi Condensed", Arial, sans-serif;
   font-size: 14px;
   line-height: 1;
+  font-weight: normal;
   background-color: #ffffff;
   background-position: top center;
   background-repeat: no-repeat;
@@ -209,11 +210,44 @@ img {
     min-height: 544px;
   }
 }
+@media (min-width: 954px) {
+  .section-2 {
+    background-position-x: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .section-2__container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 768px;
+  }
+}
 
 .section-2__flex {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+@media (min-width: 768px) {
+  .section-2__flex {
+    flex-direction: row-reverse;
+    width: 724px;
+    margin-right: 12px;
+    margin-left: 12px;
+    padding-right: 10px;
+    padding-left: 2px;
+  }
+}
+
+@media (min-width: 768px) {
+  .section-2__flex-right {
+    width: 100%;
+    min-width: 362px;
+    margin-top: -288px;
+    margin-left: 66px;
+    padding-left: 10px;
+  }
 }
 
 .section-2__header-1 {
@@ -227,7 +261,15 @@ img {
   font-family: "Montserrat", Arial, sans-serif;
   line-height: 2.3;
   font-weight: 600;
+  text-align: center;
   text-transform: uppercase;
+}
+@media (min-width: 768px) {
+  .section-2__header-1 {
+    margin-left: 0;
+    font-size: 14px;
+    text-align: left;
+  }
 }
 
 .section-2__header-2 {
@@ -244,6 +286,26 @@ img {
   font-weight: 600;
   text-align: center;
 }
+@media (min-width: 768px) {
+  .section-2__header-2 {
+    margin-left: 0;
+    font-size: 50px;
+    text-align: left;
+  }
+}
+
+.section-2__info {
+  display: none;
+}
+@media (min-width: 768px) {
+  .section-2__info {
+    display: block;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Montserrat", Arial, sans-serif;
+    line-height: 1.5;
+  }
+}
 
 .section-2__img {
   background-image: url("../img/mobile/SwedishBitter-m.png");
@@ -257,11 +319,13 @@ img {
     margin-bottom: 53px;
   }
 }
-@media (min-width: 443px) {
+@media (min-width: 768px) {
   .section-2__img {
     background-image: url("../img/tablet/SwedishBitter-t.png");
-    width: 298px;
+    width: 100%;
+    max-width: 298px;
     height: 648px;
+    margin-top: 96px;
   }
 }
 
@@ -294,6 +358,98 @@ img {
   }
 }
 
+.section-2__form {
+  display: none;
+}
+@media (min-width: 768px) {
+  .section-2__form {
+    display: block;
+    position: relative;
+    margin-top: -359px;
+    margin-right: 21px;
+    margin-left: auto;
+    padding-top: 5px;
+    padding-right: 19px;
+    padding-left: 21px;
+    width: 100%;
+    max-width: 571px;
+    min-height: 296px;
+    background-color: #ffffff;
+  }
+}
+
+.section-2__form-flex {
+  margin-top: 19px;
+  margin-left: auto;
+  padding-left: 50px;
+  width: 100%;
+  max-width: 551px;
+  min-height: 277px;
+  border: 1px solid #c8dcba;
+}
+
+.section-2__form-flex-p {
+  color: #303030;
+  font-size: 14px;
+  font-family: "Montserrat", Arial, sans-serif;
+  line-height: 1.571;
+  font-weight: 600;
+  text-align: left;
+  text-transform: uppercase;
+  margin-top: 34px;
+  margin-bottom: 35px;
+}
+
+.section-2__form-flex-input {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #cddcbc;
+  margin-right: 30px;
+}
+.section-2__form-flex-input::placeholder {
+  color: #a8c58d;
+  font-size: 14px;
+  font-family: "Montserrat", Arial, sans-serif;
+  line-height: 1.571;
+  text-align: left;
+  padding-left: 1px;
+}
+
+.section-2__form-flex-btn {
+  margin-top: 89px;
+  margin-left: auto;
+  width: 100%;
+  max-width: 250px;
+  min-height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Montserrat", Arial, sans-serif;
+  line-height: 1.571;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #7eb252;
+  cursor: pointer;
+}
+.section-2__form-flex-btn:hover {
+  transition: 0.5s;
+  background-color: #529915;
+}
+.section-2__form-flex-btn::after {
+  content: " ";
+  display: block;
+  background-image: url("../img/tablet/arrowRight-t.png");
+  width: 100%;
+  max-width: 31px;
+  height: 9px;
+  margin-left: 18px;
+}
+
 /* --------------------------------------------- */
 /* --------------------------------------------- */
 /* --------------------------------------------- */
@@ -301,36 +457,117 @@ img {
 /* Section-3 */
 /* --------------------------------------------- */
 .section-3 {
-  margin-left: 11px;
   margin-right: 11px;
+  margin-left: 11px;
   margin-bottom: 56px;
   display: flex;
   justify-content: center;
+}
+@media (min-width: 768px) {
+  .section-3 {
+    margin-top: 88px;
+    margin-right: 22px;
+    margin-left: 22px;
+    padding-right: 12px;
+    padding-left: 12px;
+  }
 }
 
 .section-3__flex {
   display: flex;
   flex-direction: column;
-  margin-left: 44px;
   margin-right: 48px;
+  margin-left: 44px;
+}
+@media (min-width: 768px) {
+  .section-3__flex {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
 
 .section-3__flex-block-1 {
   padding-right: 4px;
+}
+@media (min-width: 768px) {
+  .section-3__flex-block-1 {
+    width: 289px;
+    margin-right: 10px;
+    padding-right: 40px;
+    padding-left: 42px;
+    position: relative;
+  }
 }
 
 .section-3__flex-block-2 {
   margin-top: -31px;
   padding-right: 14px;
 }
+@media (min-width: 768px) {
+  .section-3__flex-block-2 {
+    width: 289px;
+    margin-top: 0;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-right: 49px;
+    padding-left: 73px;
+    position: relative;
+  }
+}
 
 .section-3__flex-block-3 {
   margin-top: -33px;
   padding-right: 18px;
 }
+@media (min-width: 768px) {
+  .section-3__flex-block-3 {
+    margin-top: -33px;
+    margin-right: 10px;
+    padding-right: 55px;
+    padding-left: 42px;
+    position: relative;
+  }
+}
 
 .section-3__flex-block-4 {
   margin-top: -30px;
+}
+@media (min-width: 768px) {
+  .section-3__flex-block-4 {
+    margin-top: -30px;
+    margin-left: 10px;
+    margin-right: 7px;
+    padding-left: 73px;
+    position: relative;
+  }
+}
+
+@media (min-width: 768px) {
+  .section-3__flex-block-1-3::before {
+    content: " ";
+    display: block;
+    width: 25px;
+    height: 25px;
+    border: 5px solid #e4eddc;
+    border-radius: 50%;
+    position: absolute;
+    top: 24px;
+    left: -4px;
+  }
+}
+
+@media (min-width: 768px) {
+  .section-3__flex-block-2-4::before {
+    content: " ";
+    display: block;
+    width: 25px;
+    height: 25px;
+    border: 5px solid #e4eddc;
+    border-radius: 50%;
+    position: absolute;
+    top: 24px;
+    left: 34px;
+  }
 }
 
 .section-3__info-1 {
@@ -365,6 +602,15 @@ img {
 
 .section-3__info-2-add {
   margin-bottom: 0;
+}
+
+.section-3__info-br {
+  display: none;
+}
+@media (min-width: 768px) {
+  .section-3__info-br {
+    display: block;
+  }
 }
 
 /* --------------------------------------------- */
@@ -1626,7 +1872,6 @@ img {
   color: #2f2f2f;
   font-size: 14px;
   font-family: "Montserrat", Arial, sans-serif;
-  font-weight: normal;
   line-height: 1.571;
   text-align: left;
   padding-top: 7px;
@@ -1752,7 +1997,6 @@ img {
   color: #2f2f2f;
   font-size: 14px;
   font-family: "Montserrat", Arial, sans-serif;
-  font-weight: normal;
   line-height: 1.571;
   text-align: left;
 }
@@ -1809,7 +2053,6 @@ img {
   font-family: "Montserrat", Arial, sans-serif;
   text-decoration: none;
   text-align: center;
-  font-weight: normal;
   line-height: 2.877;
   z-index: 2;
 }
