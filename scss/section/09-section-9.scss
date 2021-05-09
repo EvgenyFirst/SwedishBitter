@@ -9,8 +9,8 @@
   flex-direction: column;
   align-items: center;
 
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
 }
 
 .section-9__header {
@@ -28,14 +28,45 @@
 
   padding-left: 1px;
   padding-right: 3px;
+
+  @media (min-width: 768px) {
+    font-size: 30px;
+    line-height: 1.333;
+  }
 }
 
 .section-9__rewievs {
   position: absolute;
+
+  @media (min-width: 768px) {
+    width: 100%;
+  }
+}
+
+.section-9__rewievs-container {
+  @media (min-width: 768px) {
+    width: 578px;
+
+    margin-top: 25px;
+    margin-right: auto;
+    margin-left: auto;
+
+    padding-right: 61px;
+  }
 }
 
 .section-9__rewievs-two {
   margin-top: 25px;
+
+  @media (min-width: 768px) {
+    width: 578px;
+
+    margin-top: 25px;
+    margin-right: auto;
+    margin-left: auto;
+
+    padding-right: 37px;
+  }
 }
 
 .section-9__header-headers {
@@ -43,6 +74,10 @@
   justify-content: space-around;
 
   width: 320px;
+
+  @media (min-width: 768px) {
+    width: 768px;
+  }
 }
 
 .section-9__rewievs-articles {
@@ -51,6 +86,12 @@
 
   width: 320px;
   min-height: 390px;
+
+  @media (min-width: 768px) {
+    width: 768px;
+
+    margin-bottom: -26px;
+  }
 }
 
 .section-9__rewievs-header {
@@ -86,8 +127,8 @@
 
   margin-top: -5px;
 
-  padding-left: 12px;
   padding-right: 22px;
+  padding-left: 12px;
 }
 
 .section-9____article-add {
@@ -185,6 +226,7 @@
   justify-content: center;
 
   margin-top: 26px;
+  margin-bottom: 77px;
 }
 
 .section-9____winners {
@@ -205,10 +247,45 @@
 
   background-color: #7eb252;
 
+  @media (min-width: 768px) {
+    line-height: 1.571;
+
+    width: 578px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
   &:hover {
     transition: 0.5s;
 
     background-color: #529915;
+  }
+
+  &::after {
+    @media (min-width: 768px) {
+      display: block;
+
+      content: " ";
+
+      background-image: url(../img/tablet/arrowRight-t.png);
+      background-repeat: no-repeat;
+
+      width: 31px;
+      height: 9px;
+
+      margin-left: 20px;
+    }
+  }
+}
+
+.section-9____winners-br {
+  display: block;
+
+  @media (min-width: 768px) {
+    display: none;
   }
 }
 
