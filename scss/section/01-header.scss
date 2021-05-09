@@ -70,7 +70,7 @@
     }
 }
 
-.section-1_phone-block {
+.section-1__phone-block {
     @media (min-width: 768px) {
         display: flex;
         flex-direction: column;
@@ -79,7 +79,7 @@
     }
 }
 
-.section-1_phone-contact {
+.section-1__phone-contact {
     @media (min-width: 768px) {
         width: 100%;
         display: flex;

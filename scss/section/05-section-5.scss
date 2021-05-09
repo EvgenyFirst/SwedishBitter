@@ -5,29 +5,37 @@
 
 .section-5 {
     margin-top: 59px;
-    margin-left: 11px;
     margin-right: 11px;
+    margin-left: 11px;
+
+    @media (min-width: 768px) {
+        margin-right: 22px;
+        margin-left: 22px;
+
+        padding-right: 79px;
+        padding-left: 79px;
+    }
 }
 
 .section-5__header {
-    margin-top: -7px;
-
-    padding-left: 2px;
-
     color: #303030;
     font-size: 24px;
     font-family: "Montserrat", Arial, sans-serif;
     font-weight: 700;
     line-height: 1.25;
     text-align: center;
+
+    margin-top: -7px;
+
+    padding-left: 2px;
+
+    @media (min-width: 768px) {
+        font-size: 30px;
+        line-height: 1.333;
+    }
 }
 
 .section-5__variables {
-    margin-top: 21px;
-    margin-right: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-
     color: #303030;
     font-size: 12px;
     font-family: "Montserrat", Arial, sans-serif;
@@ -35,6 +43,16 @@
     text-transform: uppercase;
     line-height: 1.667;
     text-align: center;
+
+    margin-top: 21px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+
+    @media (min-width: 768px) {
+        font-size: 14px;
+        line-height: 1.429;
+    }
 }
 
 .section-5__items {
@@ -48,6 +66,10 @@
     align-items: baseline;
 
     margin-bottom: 23px;
+
+    @media (min-width: 768px) {
+        justify-content: start;
+    }
 }
 
 .section-5__item-01 {
@@ -73,8 +95,8 @@
     width: 19px;
     min-height: 14px;
 
-    padding-left: 1px;
     padding-right: 20px;
+    padding-left: 1px;
 }
 
 .section-5__item-info {
@@ -87,6 +109,11 @@
     margin: 0;
 
     padding-right: 0;
+
+    @media (min-width: 768px) {
+        font-size: 16px;
+        line-height: 1.375;
+    }
 }
 
 .section-5__info-swedish-bitter {
@@ -106,9 +133,49 @@
     left: -11px;
 
     margin-top: 3px;
-    margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
+    margin-left: auto;
+
+    @media (min-width: 768px) {
+        background-image: url("../img/tablet/girlWidthCup-t.png");
+
+        min-width: 876px;
+        min-height: 645px;
+
+        margin-left: -196px;
+    }
+}
+
+.section-5__info-swedish-bitter-wrapper {
+    width: 100%;
+
+    @media (min-width: 768px) {
+        width: 600px;
+
+        margin-top: -201px;
+        margin-right: auto;
+        margin-left: auto;
+
+        position: relative;
+        right: 25px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        background-color: #ffffff;
+
+        z-index: 1;
+    }
+}
+
+.section-5__info-swedish-bitter-container {
+    @media (min-width: 768px) {
+        width: 600px;
+        min-height: 161px;
+    }
 }
 
 .section-5__info-swedish-bitter-p {
@@ -122,8 +189,47 @@
     margin-top: 0px;
     margin-bottom: 34px;
 
-    padding-left: 30px;
     padding-right: 24px;
+    padding-left: 30px;
+
+    @media (min-width: 768px) {
+        font-size: 14px;
+        line-height: 1.5;
+        text-align: left;
+
+        width: 558px;
+        min-height: 141px;
+
+        margin-top: 32px;
+        margin-left: 23px;
+
+        padding-top: 39px;
+        padding-right: 97px;
+        padding-bottom: 38px;
+        padding-left: 38px;
+
+        border-top: 1px solid #c8dcba;
+        border-right: 1px solid #c8dcba;
+        border-left: 1px solid #c8dcba;
+    }
+}
+
+.section-5__link-container {
+    display: flex;
+
+    width: 100%;
+
+    margin-left: 1px;
+
+    @media (min-width: 768px) {
+        width: 558px;
+        min-height: 90px;
+
+        position: relative;
+
+        margin-top: -36px;
+        margin-bottom: 20px;
+    }
 }
 
 .section-5__link {
@@ -141,17 +247,65 @@
     min-height: 70px;
 
     margin-top: 2px;
-    margin-left: -11px;
     margin-right: -11px;
+    margin-left: -11px;
 
     padding-top: 26px;
     padding-bottom: 25px;
 
     background-color: #7eb252;
 
+    @media (min-width: 768px) {
+        font-size: 14px;
+        line-height: 1.571;
+
+        width: 558px;
+
+        position: absolute;
+
+        margin-left: 1px;
+
+        padding-left: 39px;
+
+        border-right: 1px solid #c8dcba;
+        border-bottom: 1px solid #c8dcba;
+        border-left: 1px solid #c8dcba;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+    }
+
     &:hover {
         transition: 0.5s;
         background-color: #529915;
+    }
+
+    &::after {
+        display: none;
+
+        @media (min-width: 768px) {
+            display: block;
+
+            content: " ";
+
+            background-image: url("../img/tablet/arrowRight-t.png");
+            background-repeat: no-repeat;
+
+            width: 31px;
+            height: 9px;
+
+            margin-left: 20px;
+        }
+    }
+}
+
+.section-5__link-add-text {
+    display: none;
+
+    @media (min-width: 768px) {
+        display: block;
     }
 }
 

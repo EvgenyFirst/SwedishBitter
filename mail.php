@@ -27,7 +27,7 @@
     mail($recepient, $pagetitle, $message, "Content-type: text/plain; charset=\"utf-8\"\n From: $recepient");
 
     $redirect = isset($_SERVER['HTTP_REFERER'])? $_SERVER['HTTP_REFERER']:'index.html';
-    header("Location: $redirect#submit");
+    header("Location: $redirect#send");
     exit();
 ?>
 
