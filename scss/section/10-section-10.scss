@@ -8,11 +8,31 @@
 
     display: flex;
     flex-direction: column;
+
+    @media (min-width: 768px) {
+        justify-content: center;
+
+        padding-right: 58px;
+        padding-left: 70px;
+
+        margin-top: 64px;
+        margin-right: 65px;
+        margin-bottom: 149px;
+        margin-left: 61px;
+
+        border: 1px solid #c8dcba;
+    }
 }
 
 .section-10__info {
     padding-right: 11px;
     padding-left: 11px;
+
+    @media (min-width: 768px) {
+        padding-top: 49px;
+        padding-right: 0;
+        padding-left: 0;
+    }
 }
 
 .section-10__header {
@@ -25,6 +45,15 @@
 
     padding-right: 13px;
     padding-left: 10px;
+
+    @media (min-width: 768px) {
+        font-size: 39px;
+        font-weight: 600;
+        text-align: left;
+
+        padding-right: 0;
+        padding-left: 0;
+    }
 }
 
 .section-10__data {
@@ -37,6 +66,19 @@
     padding-top: 7px;
     padding-right: 13px;
     padding-left: 1px;
+
+    @media (min-width: 768px) {
+        font-size: 15.5px;
+        line-height: 1.375;
+
+        padding-right: 0;
+    }
+}
+
+.section-10__data-span {
+    @media (min-width: 768px) {
+        display: none;
+    }
 }
 
 .section-10__add-data {
@@ -55,6 +97,15 @@
     padding-left: 14px;
 
     z-index: 2;
+
+    @media (min-width: 768px) {
+        font-size: 14px;
+        line-height: 1.429;
+        text-align: left;
+
+        padding-right: 0;
+        padding-left: 0;
+    }
 }
 
 .section-10__link-magic {
@@ -71,16 +122,51 @@
     min-height: 70px;
 
     margin-top: 25px;
-    
+
     padding-top: 12px;
     padding-bottom: 6px;
 
     background-color: #7eb252;
 
+    @media (min-width: 768px) {
+        line-height: 1.571;
+
+        width: 500px;
+        min-height: 69px;
+
+        margin-bottom: 70px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     &:hover {
         transition: 0.5s;
 
         background-color: #529915;
+    }
+
+    &:after {
+        @media (min-width: 768px) {
+            display: block;
+            
+            content: " ";
+
+            background-image: url(../img/tablet/arrowRight-t.png);
+            background-repeat: no-repeat;
+
+            width: 31px;
+            height: 9px;
+
+            margin-left: 20px;
+        }
+    }
+}
+
+.section-10__link-magic-br {
+    @media (min-width: 768px) {
+        display: none;
     }
 }
 

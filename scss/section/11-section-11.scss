@@ -20,6 +20,17 @@
 
     padding-right: 11px;
     padding-left: 11px;
+
+    @media (min-width: 768px) {
+        width: 768px;
+
+        margin-bottom: 75px;
+
+        padding-right: 22px;
+        padding-left: 22px;
+
+        background-color: #f6f9f3;
+    }
 }
 
 .section-11__header {
@@ -32,6 +43,20 @@
 
     padding-right: 22px;
     padding-left: 20px;
+
+    @media (min-width: 768px) {
+        font-size: 30px;
+        line-height: 1.667;
+
+        min-width: 100%;
+
+        margin-top: -76px;
+
+        padding-right: 22px;
+        padding-left: 22px;
+
+        background-color: #ffffff;
+    }
 }
 
 .section-11__data {
@@ -47,16 +72,44 @@
 
     padding-right: 17px;
     padding-left: 11px;
+
+    @media (min-width: 768px) {
+        font-size: 14px;
+        line-height: 1.714;
+     
+        padding-right: 112px;
+        padding-left: 107px;
+    }
 }
 
 .section-11__certificate {
     background-image: url("../img/mobile/certificate-m.png");
     background-repeat: no-repeat;
 
+    display: block;
+
     width: 280px;
     height: 434px;
 
     margin-top: 13px;
+    margin-right: auto;
+    margin-left: auto;
+
+    @media (min-width: 768px) {
+        background-image: url("../img/tablet/certificate-t.png");
+    }
+}
+
+.section-11__container {
+    @media (min-width: 768px) {
+        display: flex;
+        justify-content: space-between;
+
+        width: 724px;
+
+        margin-right: 22px;
+        margin-left: 22px;
+    }
 }
 
 .section-11__info {
@@ -65,15 +118,44 @@
     padding-right: 5px;
     padding-left: 4px;
 
+    @media (min-width: 768px) {
+        width: 415px;
+
+        margin-top: 13px;
+
+        padding-right: 19px;
+        padding-left: 19px;
+        padding-bottom: 0;
+
+        background-color: #ffffff;
+    }
+
     fieldset {
         margin: 0;
-        
+
         padding: 0;
 
         border: none;
 
+        @media (min-width: 768px) {
+            border: 1px solid #c8dcba;
+
+            padding-top: 84px;
+            padding-right: 41px;
+            padding-left: 21px;
+        }
+
         legend {
             text-align: center;
+
+            @media (min-width: 768px) {
+                text-align: left;
+
+                margin-left: 44px;
+
+                padding-right: 7px;
+                padding-left: 7px;
+            }
         }
     }
 }
@@ -94,6 +176,11 @@
     font-family: "Montserrat", Arial, sans-serif;
     line-height: 1.571;
     text-align: left;
+
+    @media (min-width: 768px) {
+        font-size: 16px;
+        line-height: 1.375;
+    }
 }
 
 .section-11__annotation-01 {
@@ -114,6 +201,8 @@
     font-weight: 700;
     line-height: 1.833;
 
+    display: block;
+
     width: 100%;
     min-height: 60px;
 
@@ -124,10 +213,40 @@
 
     background-color: #7eb252;
 
+    @media (min-width: 768px) {
+        font-size: 14px;
+        line-height: 1.571;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 120%;
+
+        margin-top: 63px;
+        margin-left: -21px;
+    }
+
     &:hover {
         transition: 0.5s;
 
         background-color: #529915;
+    }
+
+    &:after {
+        @media (min-width: 768px) {
+            display: block;
+
+            content: " ";
+
+            background-image: url(../img/tablet/arrowRight-t.png);
+            background-repeat: no-repeat;
+
+            width: 31px;
+            height: 9px;
+
+            margin-left: 20px;
+        }
     }
 }
 
