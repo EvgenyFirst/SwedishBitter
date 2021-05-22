@@ -8,7 +8,7 @@
     margin-left: 11px;
 
     @media (min-width: 768px) {
-        margin-top: -121px;
+        margin-top: -172px;
     }
 }
 
@@ -25,7 +25,7 @@
         margin-left: -11px;
 
         padding-right: 21px;
-        padding-bottom: 96px;
+        padding-bottom: 93px;
         padding-left: 21px;
     }
 }
@@ -49,8 +49,9 @@
         line-height: 1.333;
 
         padding-top: 221px;
-        padding-right: 147px;
-        padding-left: 145px;
+        padding-right: 140px;
+        padding-bottom: 17px;
+        padding-left: 149px;
     }
 }
 
@@ -71,6 +72,15 @@
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
+
+        padding-right: 1px;
+        padding-left: 0;
+    }
+}
+
+.section-6__info-02 {
+    @media (min-width: 768px) {
+        margin-top: 11px;
     }
 }
 
@@ -78,7 +88,7 @@
     margin-top: 0;
 
     @media (min-width: 768px) {
-        margin-top: 17px;
+        margin-top: 13px;
     }
 }
 
@@ -99,7 +109,7 @@
 .section-6__famoso-doctor-pareselsvs {
     display: block;
 
-    background-image: url("../img/mobile/FamosoDoctorPareselsvs-m.png");
+    background-image: url("../img/tablet/FamosoDoctorPareselsvs-t.png");
     background-repeat: no-repeat;
     background-position: center;
 
@@ -115,8 +125,12 @@
     margin-left: auto;
 
     @media (min-width: 768px) {
-        margin-right: -4px;
+        min-width: 362px;
+        min-height: 419px;
+
+        margin-top: 23px;
         margin-left: 81px;
+        margin-right: -39px;
     }
 }
 
@@ -132,6 +146,10 @@
 .section-6__form-flex {
     display: flex;
     flex-direction: column;
+
+    @media (min-width: 768px) {
+        position: relative;
+    }
 }
 
 .section-6__form-flex-p {
@@ -151,10 +169,14 @@
     padding-left: 40px;
 
     @media (min-width: 768px) {
+        font-size: 15px;
         text-align: left;
 
-        padding-right: 72px;
-        padding-left: 0;
+        position: absolute;
+        top: -135px;
+
+        padding-right: 33px;
+        padding-left: 19px;
     }
 }
 
@@ -174,18 +196,23 @@
     border-bottom: 1px solid #cddcbc;
     border-right: none;
 
-    @media (min-width: 768px) {
-        width: 320px;
-    }
-
     &::placeholder {
         color: #a8c48c;
         font-size: 14px;
         font-family: "Montserrat", Arial, sans-serif;
         font-weight: 600;
         text-align: center;
+    }
 
-        @media (min-width: 768px) {
+    @media (min-width: 768px) {
+        width: 283px;
+
+        position: absolute;
+        top: -4px;
+
+        margin-left: 20px;
+
+        &::placeholder {
             text-align: left;
         }
     }
@@ -214,17 +241,22 @@
     border: none;
 
     @media (min-width: 768px) {
-        font-size: 14px;
+        font-size: 15px;
         line-height: 1.571;
 
-        width: 281px;
+        width: 283px;
 
-        margin-left: 1px;
+        margin-left: 20px;
+
+        padding-right: 92px;
 
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
+
+        position: absolute;
+        top: 43px;
     }
 
     &:hover {
@@ -243,13 +275,15 @@
 
             content: " ";
 
-            background-image: url("../img/tablet/arrowRight-t.png");
+            background-image: url(../img/tablet/arrowRight-t.png);
             background-repeat: no-repeat;
 
             width: 31px;
             height: 9px;
 
-            margin-left: 20px;
+            position: absolute;
+
+            margin-left: 225px;
         }
     }
 }

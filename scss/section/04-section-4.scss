@@ -8,6 +8,12 @@
     flex-direction: column;
 
     background-color: #ffffff;
+
+    @media (min-width: 768px) {
+        margin-top: 127px;
+
+        padding-left: 5px;
+    }
 }
 
 .section-4__header {
@@ -53,6 +59,8 @@
     @media (min-width: 768px) {
         min-width: 768px;
 
+        margin-top: 45px;
+
         padding-right: 22px;
         padding-left: 21px;
 
@@ -95,22 +103,42 @@
     display: flex;
     justify-content: left;
     align-items: baseline;
+
+    @media (min-width: 768px) {
+        position: relative;
+    }
 }
 
 .section-4__item-02 {
     margin-top: -12px;
+
+    @media (min-width: 768px) {
+        margin-top: -6px;
+    }
 }
 
 .section-4__item-03 {
     margin-top: -10px;
+
+    @media (min-width: 768px) {
+        margin-top: -5px;
+    }
 }
 
 .section-4__item-04 {
     margin-top: -12px;
+
+    @media (min-width: 768px) {
+        margin-top: -5px;
+    }
 }
 
 .section-4__item-05 {
     margin-top: -10px;
+
+    @media (min-width: 768px) {
+        margin-top: -3px;
+    }
 }
 
 .section-4__item-06 {
@@ -129,6 +157,12 @@
     }
 }
 
+.section-4__item-p-07 {
+    @media (min-width: 768px) {
+        width: 100%;
+    }
+}
+
 .section-4__item-08 {
     margin-top: -22px;
 
@@ -139,10 +173,8 @@
 
         width: 413px;
 
-        margin-top: -193px;
-        margin-right: -37px;
-
-        padding-left: 85px;
+        margin-top: -191px;
+        margin-right: -206px;
     }
 }
 
@@ -154,12 +186,18 @@
 
         width: 326px;
 
-        margin-top: -102px;
-        margin-right: -38px;
+        margin-top: -112px;
+        margin-right: -119px;
 
         padding-bottom: 29px;
 
         border-bottom: 2px solid #e6efde;
+    }
+}
+
+.section-4__item-p-09 {
+    @media (min-width: 768px) {
+        left: -54px;
     }
 }
 
@@ -175,8 +213,17 @@
     line-height: 1.667;
 
     @media (min-width: 768px) {
-        font-size: 14px;
-        line-height: 1.429;
+        position: absolute;
+        top: 24px;
+
+        padding-right: 0;
+    }
+}
+
+.section-4__item-p-08 {
+    @media (min-width: 768px) {
+        top: 31px;
+        left: -53px;
     }
 }
 
@@ -203,6 +250,10 @@
         font-size: 14px;
         font-weight: 600;
         line-height: 1.429;
+
+        margin-top: -6px;
+
+        padding-left: 55px;
     }
 }
 
@@ -336,6 +387,10 @@
     @media (min-width: 768px) {
         font-size: 16px;
         line-height: 1.25;
+
+        position: relative;
+        top: -22px;
+        left: 53px;
     }
 }
 
@@ -360,8 +415,10 @@
     @media (min-width: 768px) {
         display: block;
 
-        margin-top: 563px;
-        margin-right: -22px;
+        position: relative;
+
+        margin-top: 510px;
+        margin-right: -10px;
         margin-left: -21px;
     }
 }
@@ -372,19 +429,18 @@
 
         width: 419px;
 
-        margin-left: auto;
+        margin-top: -162px;
         margin-right: auto;
-
+        margin-left: 148px;
+       
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
 
-        margin-top: -162px;
-
-        padding-top: 31px;
-        padding-right: 23px;
-        padding-left: 23px;
+        padding-top: 17px;
+        padding-right: 21px;
+        padding-left: 19px;
 
         background-color: #f6f9f3;
     }
@@ -436,6 +492,13 @@
     font-weight: 600;
     line-height: 1.714;
     text-decoration: underline;
+
+    @media (min-width: 768px) {
+        margin-top: 0;
+        margin-right: 0;
+        margin-bottom: -12px;
+        margin-left: 0;
+    }
 }
 
 .section-4__legend-p {
@@ -491,11 +554,12 @@
     background-color: #7eb252;
 
     @media (min-width: 768px) {
-        font-size: 14px;
+        font-size: 15px;
         line-height: 1.571;
 
-        width: 419px;
+        width: 424px;
 
+        margin-top: 29px;
         margin-right: auto;
         margin-left: auto;
 
@@ -503,6 +567,9 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        
+        padding-bottom: 20px;
+        padding-left: 21px;
     }
 
     &:hover {
