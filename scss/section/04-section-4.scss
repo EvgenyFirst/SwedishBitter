@@ -171,10 +171,10 @@
 
         float: right;
 
-        width: 413px;
+        width: 228px;
 
         margin-top: -191px;
-        margin-right: -206px;
+        margin-right: -53px;
     }
 }
 
@@ -184,10 +184,10 @@
     @media (min-width: 768px) {
         float: right;
 
-        width: 326px;
+        width: 222px;
 
         margin-top: -112px;
-        margin-right: -119px;
+        margin-right: -16px;
 
         padding-bottom: 29px;
 
@@ -214,7 +214,7 @@
 
     @media (min-width: 768px) {
         position: absolute;
-        top: 24px;
+        top: 31px;
 
         padding-right: 0;
     }
@@ -223,7 +223,7 @@
 .section-4__item-p-08 {
     @media (min-width: 768px) {
         top: 31px;
-        left: -53px;
+        left: -87px;
     }
 }
 
@@ -308,6 +308,9 @@
         font-size: 14px;
         font-weight: 600;
         line-height: 1.429;
+
+        position: inherit;
+        left: -33px;
 
         border-bottom: none;
     }
@@ -415,11 +418,13 @@
     @media (min-width: 768px) {
         display: block;
 
+        min-width: 771px;
+
         position: relative;
 
         margin-top: 510px;
         margin-right: -10px;
-        margin-left: -21px;
+        margin-left: -26px;
     }
 }
 
@@ -432,15 +437,16 @@
         margin-top: -162px;
         margin-right: auto;
         margin-left: 148px;
-       
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
 
         padding-top: 17px;
         padding-right: 21px;
         padding-left: 19px;
+        padding-bottom: 7px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
         background-color: #f6f9f3;
     }
@@ -522,13 +528,12 @@
         font-size: 16px;
         line-height: 1.5;
 
-        padding-top: 10px;
         margin-bottom: 0;
-        padding-left: 9px;
-
-        padding-top: 39px;
+        
+        padding-top: 34px;
         padding-right: 0;
-        padding-left: 25px;
+        padding-left: 42px;
+        padding-bottom: 5px;
     }
 }
 
@@ -557,19 +562,19 @@
         font-size: 15px;
         line-height: 1.571;
 
-        width: 424px;
+        width: 413px;
 
-        margin-top: 29px;
+        margin-top: 21px;
         margin-right: auto;
         margin-left: auto;
+
+        padding-bottom: 21px;
+        padding-left: 21px;
 
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        
-        padding-bottom: 20px;
-        padding-left: 21px;
     }
 
     &:hover {
