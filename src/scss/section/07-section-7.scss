@@ -130,7 +130,7 @@
     @media (min-width: 768px) {
         min-width: 227px;
         min-height: 227px;
-        
+
         margin-top: -6px;
         margin-bottom: 0;
         margin-left: 13px;
@@ -158,6 +158,13 @@
     }
 }
 
+.section-7__items-number-02 {
+    @media (min-width: 768px) {
+        position: relative;
+        top: -81px;
+    }
+}
+
 .section-7__items-img-01 {
     background-image: url("../img/mobile/pickingРerbs-m.png");
     background-repeat: no-repeat;
@@ -182,8 +189,8 @@
     margin-top: -190px;
 
     @media (min-width: 768px) {
-        margin-top: -186px;
-        margin-left: 71px;
+        margin-top: -182px;
+        margin-left: 79px;
     }
 }
 
@@ -212,6 +219,8 @@
 
     @media (min-width: 768px) {
         margin-top: -237px;
+
+        z-index: 2;
     }
 }
 

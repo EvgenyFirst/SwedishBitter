@@ -48,6 +48,8 @@
 
     @media (min-width: 768px) {
         display: block;
+
+        margin-top: -3px;
     }
 }
 
@@ -88,17 +90,18 @@
     @media (min-width: 768px) {
         display: block;
 
-        margin-top: -18px;
-        margin-bottom: 0;
-        margin-left: auto;
-
         font-family: "Montserrat", Arial, sans-serif;
         font-weight: 600;
-        font-size: 14px;
+        font-size: 12px;
         color: #9a9a9a;
         line-height: 2.3;
         text-align: right;
         text-decoration: none;
+
+        margin-top: -18px;
+        margin-right: -3px;
+        margin-bottom: 0;
+        margin-left: auto;
     }
 }
 

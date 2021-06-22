@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    min-width: 320px;
+    min-width: 321px;
 
     margin: 0;
 
@@ -24,6 +24,10 @@ body {
     background-color: #ffffff;
     background-position: top center;
     background-repeat: no-repeat;
+
+    @media (min-width: 768px) {
+        min-width: 768px;
+    }
 
     // background-image: url("../img/SwedishBitter-tablet.jpg");
     // opacity: 0.5;

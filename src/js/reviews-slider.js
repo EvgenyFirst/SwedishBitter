@@ -30,6 +30,7 @@ changeSection9rewievsHeaderEng.addEventListener("click", function () {
   changeSection9rewievsHeaderTxtEng.classList.add("section-9__rewievs-header-txt-active");
 
   changeSection9rewievsHeaderTxtEng.classList.add("section-9__rewievs-bg-header-active");
+  changeSection9rewievsHeaderTxtEng.classList.add("section-9__rewievs-header-txt-active-fix-eng");
 
   changesection9rewievsArticleRus.classList.add("section-9__rewievs-hidden");
   changesection9rewievsArticleEng.classList.remove("section-9__rewievs-hidden");
@@ -46,6 +47,7 @@ changeSection9rewievsHeaderRus.addEventListener("click", function () {
   changeSection9rewievsHeaderTxtEng.classList.remove("section-9__rewievs-header-txt-active");
 
   changeSection9rewievsHeaderTxtEng.classList.remove("section-9__rewievs-bg-header-active");
+  changeSection9rewievsHeaderTxtEng.classList.remove("section-9__rewievs-header-txt-active-fix-eng");
 
   changesection9rewievsArticleRus.classList.remove("section-9__rewievs-hidden");
   changesection9rewievsArticleEng.classList.add("section-9__rewievs-hidden");

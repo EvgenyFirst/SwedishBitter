@@ -11,6 +11,10 @@
     padding-top: 26px;
 
     background-color: #f6f9f3;
+
+    @media (min-width: 768px) {
+        padding-top: 65px;
+    }
 }
 
 .section-11__main-data {
@@ -48,14 +52,15 @@
         font-size: 30px;
         line-height: 1.667;
 
-        min-width: 100%;
+        min-width: 106vw;
 
         margin-top: -76px;
 
         padding-right: 22px;
+        padding-bottom: 38px;
         padding-left: 22px;
 
-        background-color: #ffffff;
+        background-color: #fff;
     }
 }
 
@@ -74,11 +79,13 @@
     padding-left: 11px;
 
     @media (min-width: 768px) {
-        font-size: 14px;
+        font-size: 15px;
         line-height: 1.714;
-     
+
+        margin-top: 20px;
+
         padding-right: 112px;
-        padding-left: 107px;
+        padding-left: 101px;
     }
 }
 
@@ -97,6 +104,8 @@
 
     @media (min-width: 768px) {
         background-image: url("../img/tablet/certificate-t.png");
+        background-position-y: 3px;
+        background-position-x: -16px;
     }
 }
 
@@ -141,7 +150,7 @@
             border: 1px solid #c8dcba;
 
             padding-top: 84px;
-            padding-right: 41px;
+            padding-right: 0;
             padding-left: 21px;
         }
 
@@ -151,10 +160,10 @@
             @media (min-width: 768px) {
                 text-align: left;
 
-                margin-left: 44px;
+                margin-left: 26px;
 
                 padding-right: 7px;
-                padding-left: 7px;
+                padding-left: 0;
             }
         }
     }
@@ -185,10 +194,24 @@
 
 .section-11__annotation-01 {
     margin-top: -5px;
+
+    @media (min-width: 768px) {
+        margin-top: -23px;
+        margin-left: 8px;
+
+        padding-right: 2px;
+    }
 }
 
 .section-11__annotation-02 {
     margin-top: 26px;
+
+    @media (min-width: 768px) {
+        width: 333px;
+
+        margin-top: 20px;
+        margin-left: 8px;
+    }
 }
 
 .section-11__link-order {
@@ -221,10 +244,13 @@
         justify-content: center;
         align-items: center;
 
-        width: 120%;
+        width: 106%;
 
-        margin-top: 63px;
+        margin-top: 80px;
         margin-left: -21px;
+
+        padding-top: 20px;
+        padding-left: 11px;
     }
 
     &:hover {
