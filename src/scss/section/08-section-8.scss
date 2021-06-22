@@ -1,0 +1,800 @@
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* Section-8 */
+/* --------------------------------------------- */
+
+.section-8 {
+    width: 320px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 41px;
+    padding-bottom: 55px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    @media (min-width: 768px) {
+        min-width: 768px;
+
+        padding-top: 69px;
+        padding-left: 7px;
+    }
+}
+
+.section-8__header {
+    color: #303008;
+    font-size: 24px;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.25;
+
+    margin-bottom: 0;
+
+    padding-left: 25px;
+    padding-right: 23px;
+
+    @media (min-width: 768px) {
+        font-size: 30px;
+        line-height: 1.333;
+
+        min-width: 768px;
+    }
+}
+
+.section-8__items-1 {
+    margin-top: 23px;
+
+    padding-right: 7px;
+    padding-left: 50px;
+
+    li {
+        color: #a4c58c;
+
+        &:first-child {
+            margin-top: 8px;
+            margin-bottom: 37px;
+
+            padding-right: 2px;
+        }
+
+        &:last-child {
+            margin-top: -26px;
+            margin-bottom: 24px;
+
+            padding-right: 14px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        font-size: 30px;
+        line-height: 1.333;
+
+        width: 538px;
+
+        padding-left: 42px;
+    }
+}
+
+.section-8__items-1-p {
+    color: #303030;
+    font-size: 14px;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 600;
+    line-height: 1.571;
+
+    margin-top: 0;
+    margin-bottom: 0;
+
+    @media (min-width: 768px) {
+        font-size: 16px;
+        line-height: 1.375;
+    }
+}
+
+.section-8__items-1-p-1 {
+    @media (min-width: 768px) {
+        position: relative;
+        top: -7px;
+        left: -4px;
+    }
+}
+
+.section-8__items-1-p-2 {
+    @media (min-width: 768px) {
+        position: relative;
+        top: -3px;
+        left: -5px;
+    }
+}
+
+.section-8__items-1-p-span {
+    display: contents;
+
+    @media (min-width: 768px) {
+        display: none;
+    }
+}
+
+.section-8__items-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    list-style: none;
+
+    width: 320px;
+
+    margin-top: -6px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+
+    padding-right: 11px;
+    padding-left: 11px;
+
+    @media (min-width: 768px) {
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        min-width: 724px;
+    }
+}
+
+.section-8__item-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
+
+    background-color: #f6f9f3;
+
+    z-index: 2;
+}
+
+.section-8__item-2-fix-01 {
+    margin-top: 0;
+
+    @media (min-width: 768px) {
+        width: 330px;
+        height: 348px;
+
+        margin-top: -9px;
+        margin-right: 0;
+        margin-left: 1px;
+    }
+}
+
+.section-8__item-2-fix-02 {
+    margin-bottom: 5px;
+
+    @media (min-width: 768px) {
+        width: 330px;
+        height: 348px;
+
+        margin-top: -9px;
+        margin-left: 32px;
+    }
+}
+
+.section-8__item-2-fix-03 {
+    margin-bottom: 5px;
+
+    @media (min-width: 768px) {
+        width: 330px;
+        height: 348px;
+
+        margin-top: 0;
+        margin-left: -1px;
+    }
+}
+
+.section-8__item-2-fix-04 {
+    margin-bottom: -15px;
+
+    @media (min-width: 768px) {
+        width: 330px;
+        height: 348px;
+
+        margin-top: 4px;
+        margin-left: 27px;
+    }
+}
+
+.section-8__item-2-fix-05 {
+    margin-bottom: -15px;
+
+    @media (min-width: 768px) {
+        width: 330px;
+        height: 348px;
+
+        margin-top: 24px;
+        margin-left: 0;
+    }
+}
+
+.section-8__item-2-fix-06 {
+    margin-bottom: -15px;
+
+    @media (min-width: 768px) {
+        width: 330px;
+        height: 348px;
+
+        margin-top: 23px;
+        margin-left: 22px;
+    }
+}
+
+.section-8__item-2-fix-07 {
+    margin-bottom: 5px;
+
+    @media (min-width: 768px) {
+        width: 330px;
+        height: 348px;
+    }
+}
+
+.section-8__item-2-fix-08 {
+    margin-bottom: 10px;
+
+    @media (min-width: 768px) {
+        width: 330px;
+        height: 348px;
+    }
+}
+
+.section-8__item-2-fix-09 {
+    margin-bottom: 5px;
+
+    @media (min-width: 768px) {
+        width: 330px;
+        height: 348px;
+    }
+}
+
+.section-8__item-2-fix-10 {
+    margin-bottom: -15px;
+
+    @media (min-width: 768px) {
+        width: 330px;
+        height: 348px;
+    }
+}
+
+.section-8__item-2-fix-11 {
+    margin-bottom: 0;
+
+    @media (min-width: 768px) {
+        margin-left: 23px;
+    }
+}
+
+.section-8__item-2-11 {
+    min-width: 298px;
+    min-height: 298px;
+}
+
+.section-8__img {
+    display: block;
+
+    min-width: 300px;
+    min-height: 298px;
+
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+
+.section-8__img-angelica-archangelica {
+    background-image: url("../img/mobile/AngelicaArchangelica-m.png");
+    background-repeat: no-repeat;
+
+    margin-top: -9px;
+
+    @media (min-width: 768px) {
+        background-image: url("../img/tablet/AngelicaArchangelica-t.png");
+        background-position-y: 28px;
+        background-position-x: 55px;
+
+        width: 190px;
+        height: 274px;
+    }
+}
+
+.section-8__img-carlina-acaulis {
+    background-image: url("../img/mobile/CarlinaAcaulis-m.png");
+    background-repeat: no-repeat;
+
+    margin-top: -28px;
+
+    @media (min-width: 768px) {
+        background-image: url("../img/tablet/CarlinaAcaulis-t.png");
+        background-position-y: 35px;
+        background-position-x: 48px;
+
+        width: 148px;
+        height: 250px;
+    }
+}
+
+.section-8__img-cunnamomum-camphora {
+    background-image: url("../img/mobile/CunnamomumCamphora-m.png");
+    background-repeat: no-repeat;
+
+    margin-top: -22px;
+
+    @media (min-width: 768px) {
+        background-image: url("../img/tablet/CunnamomumCamphora-t.png");
+        background-position-y: 46px;
+        background-position-x: 31px;
+
+        width: 255px;
+        height: 264px;
+    }
+}
+
+.section-8__img-fraxinus-ornus {
+    background-image: url("../img/mobile/FraxinusOrnus-m.png");
+    background-repeat: no-repeat;
+
+    margin-top: -23px;
+
+    @media (min-width: 768px) {
+        background-image: url("../img/tablet/FraxinusOrnus-t.png");
+        background-position-y: 60px;
+        background-position-x: 38px;
+
+        width: 244px;
+        height: 2594px;
+    }
+}
+
+.section-8__img-cammiphora-mol {
+    background-image: url("../img/mobile/CammiphoraMolmol-m.png");
+    background-repeat: no-repeat;
+
+    margin-top: -23px;
+
+    @media (min-width: 768px) {
+        background-image: url("../img/tablet/CammiphoraMolmol-t.png");
+        background-position-y: 60px;
+        background-position-x: 74px;
+
+        width: 148px;
+        height: 376px;
+    }
+}
+
+.section-8__img-pheum-palmatum {
+    background-image: url("../img/mobile/PheumPalmatum-m.png");
+    background-repeat: no-repeat;
+
+    margin-top: -27px;
+
+    @media (min-width: 768px) {
+        background-image: url("../img/tablet/PheumPalmatum-t.png");
+
+        width: 203px;
+        height: 266px;
+    }
+}
+
+.section-8__img-crocus-sativus {
+    background-image: url("../img/mobile/CrocusSativus-m.png");
+    background-repeat: no-repeat;
+
+    margin-top: -25px;
+
+    @media (min-width: 768px) {
+        background-image: url("../img/tablet/CrocusSativus-t.png");
+
+        width: 119px;
+        height: 269px;
+    }
+}
+
+.section-8__img-cassia-angustifolia {
+    background-image: url("../img/mobile/CassiaAngustifolia-m.png");
+    background-repeat: no-repeat;
+
+    margin-top: -22px;
+
+    @media (min-width: 768px) {
+        background-image: url("../img/tablet/CassiaAngustifolia-t.png");
+
+        width: 201px;
+        height: 257px;
+    }
+}
+
+.section-8__img-artemisia-absinthium {
+    background-image: url("../img/mobile/ArtemisiaAbsinthium-m.png");
+    background-repeat: no-repeat;
+
+    margin-top: -26px;
+
+    @media (min-width: 768px) {
+        background-image: url("../img/tablet/ArtemisiaAbsinthium-t.png");
+
+        width: 177px;
+        height: 279px;
+    }
+}
+
+.section-8__img-curcuma-zedoaria {
+    background-image: url("../img/mobile/CurcumaZedoaria-m.png");
+    background-repeat: no-repeat;
+
+    margin-top: -22px;
+
+    @media (min-width: 768px) {
+        background-image: url("../img/tablet/CurcumaZedoaria-t.png");
+
+        width: 161px;
+        height: 267px;
+    }
+}
+
+.section-8__items-2-p-left {
+    color: #a4c58c;
+    font-size: 12.637px;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 700;
+    line-height: 1.899;
+
+    margin-top: 0;
+    margin-bottom: 0;
+
+    transform: rotate(-90deg);
+
+    position: relative;
+    top: -380px;
+    left: 3px;
+
+    cursor: default;
+}
+
+.section-8__items-2-p-left-01 {
+    @media (min-width: 768px) {
+        top: -386px;
+        left: 7px;
+    }
+}
+
+.section-8__items-2-p-left-02 {
+    @media (min-width: 768px) {
+        top: -375px;
+        left: 11px;
+    }
+}
+
+.section-8__items-2-p-left-03 {
+    @media (min-width: 768px) {
+        top: -370px;
+        left: 7px;
+    }
+}
+
+.section-8__items-2-p-left-04 {
+    @media (min-width: 768px) {
+        top: -384px;
+        left: 11px;
+    }
+}
+
+.section-8__items-2-p-left-05 {
+    top: -357px;
+
+    @media (min-width: 768px) {
+        top: -386px;
+        left: 6px;
+    }
+}
+
+.section-8__items-2-p-left-06 {
+    top: -357px;
+
+    @media (min-width: 768px) {
+        top: -396px;
+        left: 8px;
+    }
+}
+
+.section-8__items-2-p-left-07 {
+    top: -357px;
+
+    @media (min-width: 768px) {
+        top: -3971px;
+        left: 10px;
+    }
+}
+
+.section-8__items-2-p-left-11 {
+    color: #a4c58c;
+    font-size: 12.637px;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 700;
+    line-height: 1.899;
+
+    margin-top: 0;
+    margin-bottom: 0;
+
+    transform: rotate(-90deg);
+
+    position: relative;
+    top: -179px;
+    left: -127px;
+
+    cursor: default;
+}
+
+.section-8__items-2-p-left-11-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.section-8__items-2-p-left-11-11 {
+    top: -176px;
+}
+
+.section-8__items-2-p-left-11-txt {
+    color: #cedfc0;
+    font-size: 248.98px;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 0.08;
+    text-align: center;
+
+    margin-top: 0;
+    margin-bottom: 0;
+
+    position: relative;
+    top: 13px;
+
+    cursor: default;
+}
+
+.section-8__items-2-p-left-11-info {
+    color: #303030;
+    font-size: 12.629px;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.742;
+
+    margin-top: 0;
+    margin-bottom: 0;
+
+    position: relative;
+    top: 32px;
+    left: 55px;
+
+    z-index: 1;
+}
+
+.section-8__items-2-p-right {
+    color: #a4c58c;
+    font-size: 12.637px;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 600;
+    line-height: 1.899;
+
+    margin-top: 0;
+    margin-bottom: 0;
+
+    position: relative;
+
+    transform: rotate(-90deg);
+
+    cursor: default;
+
+    @media (min-width: 768px) {
+        font-size: 15.637px;
+    }
+}
+
+.section-8__items-2-p-right-angelica-archangelica {
+    top: -210px;
+    right: -47px;
+
+    @media (min-width: 768px) {
+        top: -203px;
+        right: -61px;
+    }
+}
+
+.section-8__items-2-p-right-carlina-acaulis {
+    top: -182px;
+    right: -21px;
+
+    @media (min-width: 768px) {
+        top: -165px;
+        right: -36px;
+    }
+}
+
+.section-8__items-2-p-right-cunnamomum-camphora {
+    top: -224px;
+    right: -57px;
+
+    @media (min-width: 768px) {
+        top: -204px;
+        right: -79px;
+    }
+}
+
+.section-8__items-2-p-right-fraxinus-ornus {
+    top: -188px;
+    right: -20px;
+
+    @media (min-width: 768px) {
+        top: -173px;
+        right: -35px;
+    }
+}
+
+.section-8__items-2-p-right-cammiphora-molmol {
+    top: -208px;
+    right: -42px;
+
+    @media (min-width: 768px) {
+        top: -201px;
+        right: -58px;
+    }
+}
+
+.section-8__items-2-p-right-pheum-palmatum {
+    top: -197px;
+    right: -33px;
+}
+
+.section-8__items-2-p-right-crocus-sativus {
+    top: -184px;
+    right: -19px;
+}
+
+.section-8__items-2-p-right-cassia-angustifolia {
+    top: -198px;
+    right: -36px;
+}
+
+.section-8__items-2-p-right-artemisia-absinthium {
+    top: -206px;
+    right: -44px;
+}
+
+.section-8__items-2-p-right-curcuma-zedoaria {
+    top: -198px;
+    right: -33px;
+}
+
+.section-8__items-2-p-right-theriak-venezian {
+    top: -105px;
+    right: -129px;
+}
+
+.section-8__items-2-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: relative;
+    top: 111px;
+    right: -3px;
+}
+
+.section-8__items-2-flex-11 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    min-width: min-content;
+    min-height: 100%;
+}
+
+.section-8__txt-info {
+    color: #303030;
+    font-size: 14px;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 600;
+    line-height: 1.714;
+    text-align: center;
+
+    margin: 0;
+
+    padding-top: 11px;
+    padding-right: 28px;
+    padding-bottom: 49px;
+    padding-left: 28px;
+
+    @media (min-width: 768px) {
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: left;
+
+        width: 342px;
+        min-height: 213px;
+
+        margin-top: -285px;
+        margin-left: 349px;
+
+        border-top: 1px solid #c8dcba;
+        border-right: 1px solid #c8dcba;
+        border-left: 1px solid #c8dcba;
+    }
+}
+
+.section-8__txt-btn {
+    color: #ffffff;
+    font-size: 12px;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 600;
+    line-height: 1.833;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+
+    width: 100vw;
+    min-width: 320px;
+    min-height: 62px;
+
+    margin-right: -11px;
+    margin-left: -11px;
+
+    padding-top: 23px;
+
+    background-color: #7eb252;
+
+    @media (min-width: 768px) {
+        font-size: 14px;
+        line-height: 1.571;
+
+        width: 344px;
+
+        margin-left: 349px;
+        padding-top: 0;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &:hover {
+        transition: 0.5s;
+
+        background-color: #529915;
+    }
+
+    &::after {
+        @media (min-width: 768px) {
+            display: block;
+
+            content: " ";
+
+            background-image: url(../img/tablet/arrowRight-t.png);
+            background-repeat: no-repeat;
+
+            width: 31px;
+            height: 9px;
+
+            margin-left: 20px;
+        }
+    }
+}
+
+/* --------------------------------------------- */
+/* --------------------------------------------- */

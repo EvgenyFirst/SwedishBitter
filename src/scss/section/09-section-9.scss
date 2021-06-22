@@ -1,0 +1,293 @@
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* Section-9 */
+/* --------------------------------------------- */
+
+.section-9 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.section-9__header {
+  color: #303030;
+  font-size: 24px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.25;
+
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 25px;
+  margin-left: 0;
+
+  padding-left: 1px;
+  padding-right: 3px;
+
+  @media (min-width: 768px) {
+    font-size: 30px;
+    line-height: 1.333;
+  }
+}
+
+.section-9__rewievs {
+  position: absolute;
+
+  @media (min-width: 768px) {
+    width: 100%;
+  }
+}
+
+.section-9__rewievs-container {
+  @media (min-width: 768px) {
+    width: 578px;
+
+    margin-top: 25px;
+    margin-right: auto;
+    margin-left: auto;
+
+    padding-right: 61px;
+  }
+}
+
+.section-9__rewievs-two {
+  margin-top: 25px;
+
+  @media (min-width: 768px) {
+    width: 578px;
+
+    margin-top: 25px;
+    margin-right: auto;
+    margin-left: auto;
+
+    padding-right: 37px;
+  }
+}
+
+.section-9__header-headers {
+  display: flex;
+  justify-content: space-around;
+
+  width: 320px;
+
+  @media (min-width: 768px) {
+    width: 768px;
+  }
+}
+
+.section-9__rewievs-articles {
+  position: relative;
+  display: flex;
+
+  width: 320px;
+  min-height: 390px;
+
+  @media (min-width: 768px) {
+    width: 768px;
+
+    margin-bottom: -26px;
+  }
+}
+
+.section-9__rewievs-header {
+  width: 100%;
+}
+
+.section-9__rewievs-hidden {
+  display: none;
+}
+
+.section-9__rewievs-header-txt {
+  font-size: 9.857px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.8;
+
+  padding-top: 6px;
+  padding-bottom: 15px;
+}
+
+.section-9__rewievs-header-color-not-active {
+  color: #c3c3c3;
+}
+
+.section-9____article {
+  color: #9a9a9a;
+  font-size: 14px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.571;
+
+  margin-top: -5px;
+
+  padding-right: 22px;
+  padding-left: 12px;
+}
+
+.section-9____article-add {
+  color: #2f2f2f;
+  font-weight: 700;
+
+  margin-left: -2px;
+
+  padding-top: 12px;
+}
+
+.section-9__line {
+  display: block;
+
+  background-color: #a4c58c;
+
+  width: 31px;
+  min-height: 3px;
+
+  margin-bottom: 21px;
+  margin-left: 11px;
+
+  padding-left: 2px;
+}
+
+.section-9__rewievs-bg {
+  margin-top: -10px;
+
+  padding-top: 30px;
+
+  background-color: #f6f9f3;
+}
+
+.section-9____rewiev-eng {
+  margin-top: 94px;
+}
+
+.section-9__rewievs-bg-active {
+  z-index: 1;
+}
+
+.section-9__rewievs-header-txt-active {
+  color: #7eb151;
+}
+
+.section-9__rewievs-bg-header-active {
+  background-color: #f6f9f3;
+
+  &:hover {
+    cursor: default;
+  }
+}
+
+.section-9__rewievs-bg-header-not-active {
+  background-color: transparent;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.section-9____reviews-links {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+
+  margin-top: -5px;
+
+  padding-top: 35px;
+
+  background-color: #f6f9f3;
+}
+
+.section-9____read-more {
+  color: #7eb252;
+  font-size: 14px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.714;
+
+  width: 320px;
+
+  margin-top: 60px;
+  margin-right: auto;
+  margin-left: auto;
+
+  z-index: 2;
+}
+
+.section-9____winners-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 26px;
+  margin-bottom: 77px;
+}
+
+.section-9____winners {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Montserrat", Arial, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.833;
+
+  width: 100%;
+  min-height: 70px;
+
+  padding-top: 11px;
+  padding-bottom: 9px;
+
+  background-color: #7eb252;
+
+  @media (min-width: 768px) {
+    line-height: 1.571;
+
+    width: 578px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &:hover {
+    transition: 0.5s;
+
+    background-color: #529915;
+  }
+
+  &::after {
+    @media (min-width: 768px) {
+      display: block;
+
+      content: " ";
+
+      background-image: url(../img/tablet/arrowRight-t.png);
+      background-repeat: no-repeat;
+
+      width: 31px;
+      height: 9px;
+
+      margin-left: 20px;
+    }
+  }
+}
+
+.section-9____winners-br {
+  display: block;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+
+/* --------------------------------------------- */
+/* --------------------------------------------- */
