@@ -19,6 +19,16 @@
         padding-right: 12px;
         padding-left: 12px;
     }
+
+    @media (min-width: 1920px) {
+        min-width: 1720px;
+
+        margin-right: auto;
+        margin-left: auto;
+
+        padding-right: 260px;
+        padding-left: 275px;
+    }
 }
 
 .section-3__flex {
@@ -32,6 +42,15 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    @media (min-width: 1920px) {
+        min-width: 1720px;
+
+        position: relative;
+
+        margin-right: 0;
+        margin-left: 0;
     }
 }
 
@@ -63,6 +82,19 @@
             top: 23px;
             left: 17px;
         }
+    }
+
+    @media (min-width: 1920px) {
+        min-width: 300px;
+
+        position: absolute;
+        left: 257px;
+
+        margin-right: 15px;
+        margin-left: 15px;
+
+        padding-right: 1px;
+        padding-left: 29px;
     }
 }
 
@@ -99,6 +131,19 @@
             left: 38px;
         }
     }
+
+    @media (min-width: 1920px) {
+        min-width: 300px;
+
+        position: absolute;
+        left: 535px;
+
+        margin-right: 15px;
+        margin-left: 15px;
+
+        padding-right: 1px;
+        padding-left: 29px;
+    }
 }
 
 .section-3__flex-block-3 {
@@ -133,6 +178,23 @@
             left: 14px;
         }
     }
+
+    @media (min-width: 1067px) {
+        margin-top: -2px;
+    }
+
+    @media (min-width: 1920px) {
+        min-width: 300px;
+
+        position: absolute;
+        right: 533px;
+
+        margin-right: 15px;
+        margin-left: 15px;
+
+        padding-right: 1px;
+        padding-left: 29px;
+    }
 }
 
 .section-3__flex-block-4 {
@@ -164,6 +226,27 @@
             top: 39px;
             left: 36px;
         }
+    }
+
+    @media (min-width: 1067px) {
+        margin-top: 0;
+    }
+
+    @media (min-width: 1373px) {
+        margin-top: -16px;
+    }
+
+    @media (min-width: 1920px) {
+        min-width: 300px;
+
+        position: absolute;
+        right: 286px;
+
+        margin-right: 15px;
+        margin-left: 15px;
+
+        padding-right: 1px;
+        padding-left: 29px;
     }
 }
 
@@ -276,6 +359,7 @@
         bottom: 4px;
         border-bottom: 3px solid #a4c58c;
     }
+
     @media (min-width: 768px) {
         position: absolute;
         top: 121px;
@@ -288,7 +372,7 @@
             width: 73%;
 
             position: absolute;
-            bottom: 4px;
+            bottom: 72px;
             border-bottom: 3px solid #a4c58c;
         }
     }
@@ -332,7 +416,7 @@
             position: absolute;
             left: 2px;
             bottom: 72px;
-            
+
             border-bottom: 3px solid #a4c58c;
         }
     }
