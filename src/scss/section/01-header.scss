@@ -9,6 +9,14 @@
     @media (min-width: 768px) {
         min-height: 105px;
     }
+
+    @media (min-width: 1920px) {
+        margin-right: auto;
+        margin-left: auto;
+
+        padding-right: 0;
+        padding-left: 0;
+    }
 }
 
 .section-1__flex {
@@ -31,6 +39,14 @@
         padding-left: 7px;
         padding-bottom: 40px;
     }
+
+    @media (min-width: 1920px) {
+        margin-right: 283px;
+        margin-left: 265px;
+
+        padding-right: 0;
+        padding-left: 0;
+    }
 }
 
 .section-1__logo {
@@ -46,6 +62,12 @@
 
         width: 198px;
         height: 29px;
+
+        margin-top: 8px;
+    }
+
+    @media (min-width: 768px) {
+        background-image: url("../img/desktop/logo-d.png");
 
         margin-top: 8px;
     }
@@ -67,6 +89,10 @@
         font-size: 14px;
         color: #a7a7a7;
         line-height: 2.3;
+    }
+
+    @media (min-width: 1920px) {
+        font-size: 15.5px;
     }
 }
 
@@ -98,6 +124,15 @@
         margin-top: 8px;
         margin-left: 3px;
     }
+
+    @media (min-width: 1920px) {
+        background-image: url("../img/desktop/phone-d.png");
+
+        width: 16px;
+        height: 16px;
+
+        margin-left: -1px;
+    }
 }
 
 .section-1__call {
@@ -116,6 +151,13 @@
         color: #9a9a9a;
         line-height: 2.3;
         text-decoration: none;
+    }
+
+    @media (min-width: 1920px) {
+        font-size: 12px;
+
+        margin-top: -16px;
+        margin-right: 0;
     }
 }
 

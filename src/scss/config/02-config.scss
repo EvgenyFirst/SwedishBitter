@@ -29,6 +29,19 @@ body {
         min-width: 768px;
     }
 
+    @media (min-width: 1920px) {
+        min-width: 1920px;
+
+        margin-right: auto;
+        margin-left: auto;
+
+        padding-right: 100px;
+        padding-left: 100px;
+
+       // background-image: url("../img/1920.jpg");
+       // opacity: 0.5;
+    }
+
     // background-image: url("../img/SwedishBitter-tablet.jpg");
     // opacity: 0.5;
 

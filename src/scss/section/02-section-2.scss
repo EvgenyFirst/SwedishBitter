@@ -26,6 +26,12 @@
     @media (min-width: 954px) {
         background-position-x: center;
     }
+
+    @media (min-width: 1920px) {
+        background-image: url("../img/desktop/bgHeader-d.png");
+        background-position-x: -7px;
+        background-position-y: -10px;
+    }
 }
 
 .section-2__container {
@@ -34,6 +40,10 @@
         margin-left: auto;
 
         width: 768px;
+    }
+
+    @media (min-width: 1920px) {
+        min-width: 1200px;
     }
 }
 
@@ -53,6 +63,15 @@
         padding-right: 10px;
         padding-left: 2px;
     }
+
+    @media (min-width: 1920px) {
+        width: 1200px;
+
+        margin-right: 15px;
+        margin-left: 79px;
+
+        padding-left: 20px;
+    }
 }
 
 .section-2__flex-right {
@@ -64,6 +83,17 @@
         margin-left: 66px;
 
         padding-left: 10px;
+    }
+
+    @media (min-width: 1920px) {
+        min-width: 600px;
+        min-height: 280px;
+
+        margin-top: -134px;
+        margin-left: 100px;
+
+        padding-right: 11px;
+        padding-left: 30px;
     }
 }
 
@@ -89,6 +119,10 @@
 
         margin-top: -34px;
         margin-left: 16px;
+    }
+
+    @media (min-width: 1920px) {
+        margin-left: 13px;
     }
 }
 
@@ -117,6 +151,14 @@
         position: relative;
         top: 7px;
     }
+
+    @media (min-width: 1920px) {
+        font-size: 60px;
+
+        margin-left: 8px;
+
+        top: -1px;
+    }
 }
 
 .section-2__info {
@@ -135,13 +177,54 @@
         position: relative;
         top: -5px;
     }
+
+    @media (min-width: 1920px) {
+        font-size: 18px;
+        line-height: 1.433;
+
+        margin-left: 13px;
+
+        top: 6px;
+    }
 }
 
-.section-2__info-br {
+.section-2__info-br-1 {
     display: none;
 
     @media (min-width: 768px) {
         display: block;
+    }
+
+    @media (min-width: 1920px) {
+        display: none;
+    }
+}
+
+.section-2__info-fix {
+    display: none;
+
+    @media (min-width: 1920px) {
+        display: inline-block;
+    }
+}
+
+.section-2__info-br-2 {
+    display: none;
+
+    @media (min-width: 768px) {
+        display: block;
+    }
+}
+
+.section-2__info-br-3 {
+    display: none;
+
+    @media (min-width: 768px) {
+        display: block;
+    }
+
+    @media (min-width: 1920px) {
+        display: none;
     }
 }
 
@@ -168,6 +251,15 @@
         margin-top: 79px;
         margin-right: -17px;
         margin-left: 6px;
+    }
+
+    @media (min-width: 1920px) {
+        background-image: url("../img/desktop/SwedishBitter-d.png");
+        background-position: center;
+        background-position-x: 26px;
+        background-position-y: 4px;
+
+        min-width: 370px;
     }
 }
 
@@ -224,6 +316,11 @@
 
         background-color: #ffffff;
     }
+
+    @media (min-width: 1920px) {
+        margin-top: -347px;
+        margin-right: 28px;
+    }
 }
 
 .section-2__form-flex {
@@ -262,6 +359,12 @@
 
         margin-top: 44px;
     }
+
+    @media (min-width: 1920px) {
+        font-size: 15px;
+
+        margin-top: 42px;
+    }
 }
 
 .section-2__form-flex-input {
@@ -298,6 +401,10 @@
 
         padding-bottom: 11px;
     }
+
+    @media (min-width: 1920px) {
+        margin-left: -1px;
+    }
 }
 
 .section-2__form-flex-input-phone {
@@ -311,6 +418,10 @@
         margin-right: -39px;
 
         padding-bottom: 11px;
+    }
+
+    @media (min-width: 1920px) {
+        margin-right: -36px;
     }
 }
 
@@ -345,6 +456,15 @@
 
         padding-right: 5px;
         padding-left: 19px;
+    }
+
+    @media (min-width: 1920px) {
+        font-size: 15px;
+
+        margin-top: 125px;
+
+        padding-right: 4px;
+        padding-left: 18px;
     }
 
     &:hover {
