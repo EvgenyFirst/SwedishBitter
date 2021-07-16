@@ -10,11 +10,22 @@
 
     @media (min-width: 768px) {
         margin-top: 148px;
-        margin-right: 22px;
-        margin-left: 22px;
+        margin-right: auto;
+        margin-left: auto;
 
         padding-right: 79px;
         padding-left: 79px;
+    }
+
+    @media (min-width: 1920px) {
+        min-width: 1720px;
+
+        margin-top: 209px;
+        margin-right: 0;
+        margin-left: 0;
+
+        padding-right: 0;
+        padding-left: 0;
     }
 }
 
@@ -33,6 +44,34 @@
     @media (min-width: 768px) {
         font-size: 30px;
         line-height: 1.333;
+    }
+
+    @media (min-width: 1920px) {
+        text-align: left;
+        font-size: 40px;
+
+        width: 515px;
+
+        margin-right: 270px;
+        margin-left: auto;
+
+        padding-top: 33px;
+        padding-right: 21px;
+        padding-left: 1px;
+    }
+}
+
+.section-5__container {
+    @media (min-width: 1920px) {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
+
+.section-5__wrapper {
+    @media (min-width: 1920px) {
+        margin-top: -33px;
+        margin-left: 47px;
     }
 }
 
@@ -57,11 +96,24 @@
 
         margin-top: 40px;
     }
+
+    @media (min-width: 1920px) {
+        text-align: left;
+    }
 }
 
 .section-5__items {
     list-style: none;
     padding-left: 0;
+
+    @media (min-width: 1920px) {
+        min-height: 515px;
+
+        margin-top: 58px;
+        margin-left: -13px;
+
+        padding-left: 3px;
+    }
 }
 
 .section-5__item {
@@ -74,6 +126,12 @@
     @media (min-width: 768px) {
         justify-content: start;
         align-items: center;
+    }
+
+    @media (min-width: 1920px) {
+        margin-bottom: 47px;
+
+        padding-right: 247px;
     }
 }
 
@@ -111,6 +169,10 @@
         margin-top: -2px;
         margin-left: 15px;
     }
+
+    @media (min-width: 1920px) {
+        margin-top: 60px;
+    }
 }
 
 .section-5__item-arrow {
@@ -143,6 +205,11 @@
         font-size: 16px;
         line-height: 1.375;
     }
+
+    @media (min-width: 1920px) {
+        font-size: 16px;
+        line-height: 1.375;
+    }
 }
 
 .section-5__info-swedish-bitter {
@@ -152,6 +219,10 @@
 
     @media (min-width: 768px) {
         margin-top: 44px;
+    }
+
+    @media (min-width: 1920px) {
+        margin-right: -0;
     }
 }
 
@@ -178,6 +249,17 @@
 
         margin-left: -196px;
     }
+
+    @media (min-width: 1920px) {
+        background-image: url("../img/desktop/girlWidthCup-d.png");
+        background-position-x: 4px;
+
+        min-width: 888px;
+        min-height: 645px;
+
+        margin-top: -265px;
+        margin-left: 0;
+    }
 }
 
 .section-5__info-swedish-bitter-wrapper {
@@ -201,6 +283,12 @@
         background-color: #ffffff;
 
         z-index: 1;
+    }
+
+    @media (min-width: 1920px) {
+        margin-top: -203px;
+        margin-bottom: 175px;
+        margin-right: 2px;
     }
 }
 
