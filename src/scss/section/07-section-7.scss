@@ -11,6 +11,10 @@
 
         min-height: 561px;
     }
+
+    @media (min-width: 1920px) {
+        background-color: transparent;
+    }
 }
 
 .section-7__block {
@@ -20,6 +24,11 @@
     @media (min-width: 768px) {
         margin-left: 22px;
         margin-right: 22px;
+    }
+
+    @media (min-width: 1920px) {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -47,6 +56,47 @@
         padding-top: 90px;
         padding-right: 77px;
         padding-left: 73px;
+    }
+
+    @media (min-width: 1920px) {
+        position: relative;
+
+        font-size: 40px;
+        line-height: 1.25;
+        text-align: left;
+
+        margin-left: 247px;
+        margin-right: auto;
+
+        padding-top: 170px;
+        padding-right: 857px;
+        padding-bottom: 81px;
+        padding-left: 15px;
+
+        z-index: 2;
+    }
+}
+
+.section-7__header-special {
+    @media (min-width: 1920px) {
+        padding-left: 26px;
+    }
+}
+
+.section-7__container {
+    @media (min-width: 1920px) {
+        min-height: 375px;
+
+        display: flex;
+        justify-content: center;
+
+        margin-top: 17px;
+        margin-left: 10px;
+
+        padding-right: 40px;
+        padding-left: 6px;
+
+        background-color: #f6f9f3;
     }
 }
 
@@ -80,6 +130,22 @@
 
         background-color: #ffffff;
     }
+
+    @media (min-width: 1920px) {
+        width: 61%;
+        min-height: 442px;
+
+        margin-top: -145px;
+        margin-bottom: 90px;
+
+        padding-bottom: 0;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-color: #ffffff;
+    }
 }
 
 .section-7__items {
@@ -93,6 +159,12 @@
 
         border: 2px solid #7eb186;
     }
+
+    @media (min-width: 1920px) {
+        min-height: 312px;
+
+        background-color: #ffffff;
+    }
 }
 
 .section-7__items-01 {
@@ -105,6 +177,13 @@
         margin-top: -7px;
         margin-right: 13px;
         padding-top: 58px;
+    }
+
+    @media (min-width: 1920px) {
+        min-width: 312px;
+        min-height: 314px;
+
+        margin-top: 48px;
     }
 }
 
@@ -120,6 +199,13 @@
         padding-top: 70px;
 
         position: relative;
+    }
+
+    @media (min-width: 1920px) {
+        min-width: 312px;
+        min-height: 314px;
+
+        margin-top: 48px;
     }
 }
 
@@ -139,6 +225,13 @@
 
         position: relative;
     }
+
+    @media (min-width: 1920px) {
+        min-width: 312px;
+        min-height: 314px;
+
+        margin-top: 48px;
+    }
 }
 
 .section-7__items-number {
@@ -148,6 +241,8 @@
     font-weight: 700;
     line-height: 0.149;
 
+    cursor: default;
+
     @media (min-width: 768px) {
         color: #f7faf4;
         font-size: 119.386px;
@@ -156,12 +251,21 @@
         margin-top: -7px;
         margin-left: -13px;
     }
+
+    @media (min-width: 1920px) {
+        font-size: 150px;
+        line-height: 0.133;
+    }
 }
 
 .section-7__items-number-02 {
     @media (min-width: 768px) {
         position: relative;
         top: -81px;
+    }
+
+    @media (min-width: 1920px) {
+        top: -89px;
     }
 }
 
@@ -183,6 +287,13 @@
         min-width: 66px;
         min-height: 63px;
     }
+
+    @media (min-width: 1920px) {
+        background-image: url("../img/desktop/pickingРerbs-d.png");
+
+        min-width: 91px;
+        min-height: 88px;
+    }
 }
 
 .section-7__items-img-01-add {
@@ -191,6 +302,12 @@
     @media (min-width: 768px) {
         margin-top: -182px;
         margin-left: 79px;
+    }
+
+    @media (min-width: 920px) {
+        margin-top: -202px;
+        margin-bottom: 11px;
+        margin-left: 103px;
     }
 }
 
@@ -212,6 +329,13 @@
         min-width: 70px;
         min-height: 53px;
     }
+
+    @media (min-width: 1920px) {
+        background-image: url("../img/desktop/defaultInstruction-d.png");
+
+        min-width: 101px;
+        min-height: 73px;
+    }
 }
 
 .section-7__items-img-02-add {
@@ -221,6 +345,10 @@
         margin-top: -237px;
 
         z-index: 2;
+    }
+
+    @media (min-width: 1920px) {
+        margin-top: -286px;
     }
 }
 
@@ -242,6 +370,13 @@
         min-width: 61px;
         min-height: 53px;
     }
+
+    @media (min-width: 1920px) {
+        background-image: url("../img/desktop/QualityCertificate-d.png");
+
+        min-width: 86px;
+        min-height: 73px;
+    }
 }
 
 .section-7__items-img-03-add {
@@ -250,6 +385,12 @@
     @media (min-width: 768px) {
         margin-top: -184px;
         margin-right: 86px;
+    }
+
+    @media (min-width: 1920px) {
+        margin-top: -199px;
+        margin-right: 103px;
+        margin-bottom: 18px;
     }
 }
 
@@ -267,6 +408,11 @@
         font-size: 10px;
         font-weight: 700;
         line-height: 1.434;
+    }
+
+    @media (min-width: 1920px) {
+        font-size: 14px;
+        line-height: 1.429;
     }
 }
 
@@ -289,10 +435,21 @@
         top: 121px;
         left: 21px;
     }
+
+    @media (min-width: 1920px) {
+        top: 186px;
+        left: 34px;
+
+        z-index: 2;
+    }
 }
 
 .section-7__items-header-03 {
     margin-top: 35px;
+
+    @media (min-width: 1920px) {
+        margin-top: 27px;
+    }
 }
 /* --------------------------------------------- */
 /* --------------------------------------------- */
