@@ -23,6 +23,10 @@
         padding-top: 69px;
         padding-left: 7px;
     }
+
+    @media (min-width: 1920px) {
+        width: 1200px;
+    }
 }
 
 .section-8__header {
@@ -143,6 +147,10 @@
 
         min-width: 724px;
     }
+
+    @media (min-width: 1920px) {
+        width: 1200px;
+    }
 }
 
 .section-8__item-2 {
@@ -174,6 +182,11 @@
         margin-right: 0;
         margin-left: 1px;
     }
+
+    @media (min-width: 1920px) {
+        width: 270px;
+        height: 270px;
+    }
 }
 
 .section-8__item-2-fix-02 {
@@ -185,6 +198,11 @@
 
         margin-top: -9px;
         margin-left: 32px;
+    }
+
+    @media (min-width: 1920px) {
+        width: 270px;
+        height: 270px;
     }
 }
 
@@ -198,6 +216,11 @@
         margin-top: 0;
         margin-left: -1px;
     }
+
+    @media (min-width: 1920px) {
+        width: 270px;
+        height: 270px;
+    }
 }
 
 .section-8__item-2-fix-04 {
@@ -209,6 +232,11 @@
 
         margin-top: 4px;
         margin-left: 27px;
+    }
+
+    @media (min-width: 1920px) {
+        width: 270px;
+        height: 270px;
     }
 }
 
@@ -222,6 +250,11 @@
         margin-top: 24px;
         margin-left: 0;
     }
+
+    @media (min-width: 1920px) {
+        width: 270px;
+        height: 270px;
+    }
 }
 
 .section-8__item-2-fix-06 {
@@ -233,6 +266,11 @@
 
         margin-top: 23px;
         margin-left: 22px;
+    }
+
+    @media (min-width: 1920px) {
+        width: 270px;
+        height: 270px;
     }
 }
 
@@ -246,6 +284,11 @@
         margin-top: 35px;
         margin-left: 0;
     }
+
+    @media (min-width: 1920px) {
+        width: 270px;
+        height: 270px;
+    }
 }
 
 .section-8__item-2-fix-08 {
@@ -257,6 +300,11 @@
 
         margin-top: 36px;
         margin-left: 26px;
+    }
+
+    @media (min-width: 1920px) {
+        width: 270px;
+        height: 270px;
     }
 }
 
@@ -270,6 +318,11 @@
         margin-top: 12px;
         margin-left: 0;
     }
+
+    @media (min-width: 1920px) {
+        width: 270px;
+        height: 270px;
+    }
 }
 
 .section-8__item-2-fix-10 {
@@ -282,6 +335,11 @@
         margin-top: 14px;
         margin-left: 35px;
     }
+
+    @media (min-width: 1920px) {
+        width: 270px;
+        height: 270px;
+    }
 }
 
 .section-8__item-2-fix-11 {
@@ -289,6 +347,11 @@
 
     @media (min-width: 768px) {
         margin-left: 23px;
+    }
+
+    @media (min-width: 1920px) {
+        width: 270px;
+        height: 270px;
     }
 }
 
@@ -298,6 +361,11 @@
 
     @media (min-width: 768px) {
         height: 356px;
+    }
+
+    @media (min-width: 1920px) {
+        width: 270px;
+        height: 270px;
     }
 }
 
@@ -314,162 +382,232 @@
 }
 
 .section-8__img-angelica-archangelica {
-    background-image: url("../img/mobile/AngelicaArchangelica-m.png");
+    background-image: url("../img/mobile/angelicaArchangelica-m.png");
     background-repeat: no-repeat;
 
     margin-top: -9px;
 
     @media (min-width: 768px) {
-        background-image: url("../img/tablet/AngelicaArchangelica-t.png");
+        background-image: url("../img/tablet/angelicaArchangelica-t.png");
         background-position-y: 28px;
         background-position-x: 55px;
 
         width: 190px;
         height: 274px;
     }
+
+    @media (min-width: 1920px) {
+        background-image: url("../img/desktop/angelicaArchangelica-d.png");
+
+        width: 155px;
+        height: 224px;
+    }
 }
 
 .section-8__img-carlina-acaulis {
-    background-image: url("../img/mobile/CarlinaAcaulis-m.png");
+    background-image: url("../img/mobile/carlinaAcaulis-m.png");
     background-repeat: no-repeat;
 
     margin-top: -28px;
 
     @media (min-width: 768px) {
-        background-image: url("../img/tablet/CarlinaAcaulis-t.png");
+        background-image: url("../img/tablet/carlinaAcaulis-t.png");
         background-position-y: 35px;
         background-position-x: 48px;
 
         width: 148px;
         height: 250px;
     }
+
+    @media (min-width: 1920px) {
+        background-image: url("../img/desktop/carlinaAcaulis-d.png");
+
+        width: 170px;
+        height: 227px;
+    }
 }
 
 .section-8__img-cunnamomum-camphora {
-    background-image: url("../img/mobile/CunnamomumCamphora-m.png");
+    background-image: url("../img/mobile/cunnamomumCamphora-m.png");
     background-repeat: no-repeat;
 
     margin-top: -22px;
 
     @media (min-width: 768px) {
-        background-image: url("../img/tablet/CunnamomumCamphora-t.png");
+        background-image: url("../img/tablet/cunnamomumCamphora-t.png");
         background-position-y: 46px;
         background-position-x: 31px;
 
         width: 255px;
         height: 264px;
     }
+
+    @media (min-width: 1920px) {
+        background-image: url("../img/desktop/cunnamomumCamphora-d.png");
+
+        width: 192px;
+        height: 216px;
+    }
 }
 
 .section-8__img-fraxinus-ornus {
-    background-image: url("../img/mobile/FraxinusOrnus-m.png");
+    background-image: url("../img/mobile/fraxinusOrnus-m.png");
     background-repeat: no-repeat;
 
     margin-top: -23px;
 
     @media (min-width: 768px) {
-        background-image: url("../img/tablet/FraxinusOrnus-t.png");
+        background-image: url("../img/tablet/fraxinusOrnus-t.png");
         background-position-y: 60px;
         background-position-x: 38px;
 
         width: 244px;
-        height: 2594px;
+        height: 259px;
+    }
+
+    @media (min-width: 1920px) {
+        background-image: url("../img/desktop/fraxinusOrnus-d.png");
+
+        width: 190px;
+        height: 211px;
     }
 }
 
 .section-8__img-cammiphora-mol {
-    background-image: url("../img/mobile/CammiphoraMolmol-m.png");
+    background-image: url("../img/mobile/cammiphoraMolmol-m.png");
     background-repeat: no-repeat;
 
     margin-top: -23px;
 
     @media (min-width: 768px) {
-        background-image: url("../img/tablet/CammiphoraMolmol-t.png");
+        background-image: url("../img/tablet/cammiphoraMolmol-t.png");
         background-position-y: 60px;
         background-position-x: 74px;
 
         width: 148px;
         height: 376px;
     }
+
+    @media (min-width: 768px) {
+        background-image: url("../img/desktop/cammiphoraMolmol-d.png");
+
+        width: 121px;
+        height: 204px;
+    }
 }
 
 .section-8__img-pheum-palmatum {
-    background-image: url("../img/mobile/PheumPalmatum-m.png");
+    background-image: url("../img/mobilepheumPalmatum-m.png");
     background-repeat: no-repeat;
 
     margin-top: -27px;
 
     @media (min-width: 768px) {
-        background-image: url("../img/tablet/PheumPalmatum-t.png");
+        background-image: url("../img/tablet/pheumPalmatum-t.png");
         background-position-y: 59px;
         background-position-x: 53px;
 
         width: 203px;
         height: 349px;
     }
+
+    @media (min-width: 1920px) {
+        background-image: url("../img/desktop/pheumPalmatum-d.png");
+
+        width: 166px;
+        height: 217px;
+    }
 }
 
 .section-8__img-crocus-sativus {
-    background-image: url("../img/mobile/CrocusSativus-m.png");
+    background-image: url("../img/mobile/crocusSativus-m.png");
     background-repeat: no-repeat;
 
     margin-top: -25px;
 
     @media (min-width: 768px) {
-        background-image: url("../img/tablet/CrocusSativus-t.png");
+        background-image: url("../img/tablet/crocusSativus-t.png");
         background-position-y: 52px;
         background-position-x: 102px;
 
         width: 119px;
         height: 355px;
     }
+
+    @media (min-width: 1920px) {
+        background-image: url("../img/desktop/crocusSativus-d.png");
+
+        width: 97px;
+        height: 219px;
+    }
 }
 
 .section-8__img-cassia-angustifolia {
-    background-image: url("../img/mobile/CassiaAngustifolia-m.png");
+    background-image: url("../img/mobile/cassiaAngustifolia-m.png");
     background-repeat: no-repeat;
 
     margin-top: -22px;
 
     @media (min-width: 768px) {
-        background-image: url("../img/tablet/CassiaAngustifolia-t.png");
+        background-image: url("../img/tablet/cassiaAngustifolia-t.png");
         background-position-y: 46px;
         background-position-x: 50px;
 
         width: 201px;
         height: 257px;
     }
+
+    @media (min-width: 1920px) {
+        background-image: url("../img/desktop/cassiaAngustifolia-d.png");
+
+        width: 164px;
+        height: 210px;
+    }
 }
 
 .section-8__img-artemisia-absinthium {
-    background-image: url("../img/mobile/ArtemisiaAbsinthium-m.png");
+    background-image: url("../img/mobile/artemisiaAbsinthium-m.png");
     background-repeat: no-repeat;
 
     margin-top: -26px;
 
     @media (min-width: 768px) {
-        background-image: url("../img/tablet/ArtemisiaAbsinthium-t.png");
+        background-image: url("../img/tablet/artemisiaAbsinthium-t.png");
         background-position-y: 39px;
         background-position-x: 58px;
 
         width: 177px;
         height: 279px;
     }
+
+    @media (min-width: 1920px) {
+        background-image: url("../img/desktop/artemisiaAbsinthium-d.png");
+
+        width: 144px;
+        height: 227px;
+    }
 }
 
 .section-8__img-curcuma-zedoaria {
-    background-image: url("../img/mobile/CurcumaZedoaria-m.png");
+    background-image: url("../img/mobile/curcumaZedoaria-m.png");
     background-repeat: no-repeat;
 
     margin-top: -22px;
 
     @media (min-width: 768px) {
-        background-image: url("../img/tablet/CurcumaZedoaria-t.png");
+        background-image: url("../img/tablet/curcumaZedoaria-t.png");
         background-position-y: 38px;
         background-position-x: 66px;
 
         width: 161px;
         height: 267px;
+    }
+
+    @media (min-width: 1920px) {
+        background-image: url("../img/desktop/curcumaZedoaria-d.png");
+
+        width: 1631px;
+        height: 218px;
     }
 }
 
@@ -892,7 +1030,7 @@
 
             content: " ";
 
-            background-image: url(../img/tablet/arrowRight-t.png);
+            background-image: url("../img/tablet/arrowRight-t.png");
             background-repeat: no-repeat;
 
             width: 31px;
